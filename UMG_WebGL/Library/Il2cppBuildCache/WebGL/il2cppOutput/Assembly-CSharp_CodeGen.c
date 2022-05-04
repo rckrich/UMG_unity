@@ -595,93 +595,467 @@ extern void CameraController__ctor_m07EC5A8C82742876097619BE7DD9043F47327DAE (vo
 extern void FrameRate_OnEnable_m7CFFE9C1A994E432AE437B9EC680BD9429EE6360 (void);
 // 0x00000125 System.Void FrameRate::.ctor()
 extern void FrameRate__ctor_m5C75B8C15C09497149D5C651DACE28180943B587 (void);
-// 0x00000126 System.Void NPCController::OnTriggerEnter2D(UnityEngine.Collider2D)
+// 0x00000126 System.String PrimaryAssetContract::get_address()
+extern void PrimaryAssetContract_get_address_m6FE4E2B22B3052A473CF03D10A8CE75259B3BE25 (void);
+// 0x00000127 System.Void PrimaryAssetContract::set_address(System.String)
+extern void PrimaryAssetContract_set_address_m6797D063D22C0D9A1C2F8443E3A529907761296F (void);
+// 0x00000128 System.String PrimaryAssetContract::get_asset_contract_type()
+extern void PrimaryAssetContract_get_asset_contract_type_mFC76BD28265C5036366DD69813686775FCA73E5E (void);
+// 0x00000129 System.Void PrimaryAssetContract::set_asset_contract_type(System.String)
+extern void PrimaryAssetContract_set_asset_contract_type_m5267937F052240C3A14F4876D5AC975790F1C60F (void);
+// 0x0000012A System.DateTime PrimaryAssetContract::get_created_date()
+extern void PrimaryAssetContract_get_created_date_mC2A7BC50CA3CFB36184D14912C44C72956C4A2B6 (void);
+// 0x0000012B System.Void PrimaryAssetContract::set_created_date(System.DateTime)
+extern void PrimaryAssetContract_set_created_date_m1A09A8ACF698F4F7FA403E816800D33690F38E99 (void);
+// 0x0000012C System.String PrimaryAssetContract::get_name()
+extern void PrimaryAssetContract_get_name_m6C92114EA2DBD2C47ABB184E41896D677C6DC78E (void);
+// 0x0000012D System.Void PrimaryAssetContract::set_name(System.String)
+extern void PrimaryAssetContract_set_name_m4853E6E45D65716A67DE8C02B5C8BE1A0A865734 (void);
+// 0x0000012E System.String PrimaryAssetContract::get_nft_version()
+extern void PrimaryAssetContract_get_nft_version_m53F2F79B65610E4B42CAF14BEDE422A194C6C14C (void);
+// 0x0000012F System.Void PrimaryAssetContract::set_nft_version(System.String)
+extern void PrimaryAssetContract_set_nft_version_m52937BA805008B04948A630B61B8E716C33F6833 (void);
+// 0x00000130 System.Object PrimaryAssetContract::get_opensea_version()
+extern void PrimaryAssetContract_get_opensea_version_m00A22153B0A89304DB8D92D72F16C815C49A7A32 (void);
+// 0x00000131 System.Void PrimaryAssetContract::set_opensea_version(System.Object)
+extern void PrimaryAssetContract_set_opensea_version_mA88FB02D8DC91A36D18256FD19EDCDF7DAEDC801 (void);
+// 0x00000132 System.Int32 PrimaryAssetContract::get_owner()
+extern void PrimaryAssetContract_get_owner_m3082B1EFDCBA24F945904D83502CAF0FE47931D9 (void);
+// 0x00000133 System.Void PrimaryAssetContract::set_owner(System.Int32)
+extern void PrimaryAssetContract_set_owner_m2770B662B09E3644090F4F8429205093CA081841 (void);
+// 0x00000134 System.String PrimaryAssetContract::get_schema_name()
+extern void PrimaryAssetContract_get_schema_name_m7FC81401521766C89646488E7657D2378ABC3E16 (void);
+// 0x00000135 System.Void PrimaryAssetContract::set_schema_name(System.String)
+extern void PrimaryAssetContract_set_schema_name_mEFBA8AAA3514879F5952871F2EED32D176DABA02 (void);
+// 0x00000136 System.String PrimaryAssetContract::get_symbol()
+extern void PrimaryAssetContract_get_symbol_m5DF25C5B60C31BE06E8C59C6DBD23C0AC294858D (void);
+// 0x00000137 System.Void PrimaryAssetContract::set_symbol(System.String)
+extern void PrimaryAssetContract_set_symbol_m8829C2DF7D7696D55AD5B87DD5733158B03943D8 (void);
+// 0x00000138 System.String PrimaryAssetContract::get_total_supply()
+extern void PrimaryAssetContract_get_total_supply_m0E541FD75A4712B415FDD2AB08005372956E90D3 (void);
+// 0x00000139 System.Void PrimaryAssetContract::set_total_supply(System.String)
+extern void PrimaryAssetContract_set_total_supply_m80A37BBB8804E57096E42F35414D0D8C948C64FC (void);
+// 0x0000013A System.Object PrimaryAssetContract::get_description()
+extern void PrimaryAssetContract_get_description_mC8D4C1D7C9070230E556799F7A6E6B86F7B97DE4 (void);
+// 0x0000013B System.Void PrimaryAssetContract::set_description(System.Object)
+extern void PrimaryAssetContract_set_description_m39F3D6DDA09DBDCB328AC945BC801F3C6C7455B0 (void);
+// 0x0000013C System.Object PrimaryAssetContract::get_external_link()
+extern void PrimaryAssetContract_get_external_link_m0E764CCF048AEE4F6E72EA24B6A90BF16E3EC35A (void);
+// 0x0000013D System.Void PrimaryAssetContract::set_external_link(System.Object)
+extern void PrimaryAssetContract_set_external_link_m88D4F88C3CC388FC9CEC53D7B9281BDD154DD815 (void);
+// 0x0000013E System.Object PrimaryAssetContract::get_image_url()
+extern void PrimaryAssetContract_get_image_url_m13865339AAE640187D8837994E790AE44E28E33C (void);
+// 0x0000013F System.Void PrimaryAssetContract::set_image_url(System.Object)
+extern void PrimaryAssetContract_set_image_url_m0C1B093212D31D3785ADE7C53C0D37648F8A0B28 (void);
+// 0x00000140 System.Boolean PrimaryAssetContract::get_default_to_fiat()
+extern void PrimaryAssetContract_get_default_to_fiat_m66FC808A2722B9480666B7100CA887D75A5F74AD (void);
+// 0x00000141 System.Void PrimaryAssetContract::set_default_to_fiat(System.Boolean)
+extern void PrimaryAssetContract_set_default_to_fiat_m6798F2C39122412DCFD6A335B58C93FC0D5DF3EC (void);
+// 0x00000142 System.Int32 PrimaryAssetContract::get_dev_buyer_fee_basis_points()
+extern void PrimaryAssetContract_get_dev_buyer_fee_basis_points_m62A41591074CD9A6E20A811C65DCBF48ED074A33 (void);
+// 0x00000143 System.Void PrimaryAssetContract::set_dev_buyer_fee_basis_points(System.Int32)
+extern void PrimaryAssetContract_set_dev_buyer_fee_basis_points_m05E57620DD583019A5EFC1575883AE26CE95B80D (void);
+// 0x00000144 System.Int32 PrimaryAssetContract::get_dev_seller_fee_basis_points()
+extern void PrimaryAssetContract_get_dev_seller_fee_basis_points_m940F0128D98D2237C010E5FC5BD1AC15B5BF6C57 (void);
+// 0x00000145 System.Void PrimaryAssetContract::set_dev_seller_fee_basis_points(System.Int32)
+extern void PrimaryAssetContract_set_dev_seller_fee_basis_points_m7C5209C96A3948B125CD9813432CB699C409B58C (void);
+// 0x00000146 System.Boolean PrimaryAssetContract::get_only_proxied_transfers()
+extern void PrimaryAssetContract_get_only_proxied_transfers_m8D49C882BED9C53A598E2863E0B85BECFAAC297F (void);
+// 0x00000147 System.Void PrimaryAssetContract::set_only_proxied_transfers(System.Boolean)
+extern void PrimaryAssetContract_set_only_proxied_transfers_m820D30586DC578662CF9658215E0F132732A8E46 (void);
+// 0x00000148 System.Int32 PrimaryAssetContract::get_opensea_buyer_fee_basis_points()
+extern void PrimaryAssetContract_get_opensea_buyer_fee_basis_points_m7296BEC014A12E848BC4AC5E26091B7232F78249 (void);
+// 0x00000149 System.Void PrimaryAssetContract::set_opensea_buyer_fee_basis_points(System.Int32)
+extern void PrimaryAssetContract_set_opensea_buyer_fee_basis_points_m130E56BEBD2716234CCBE7605830D5830F2672D7 (void);
+// 0x0000014A System.Int32 PrimaryAssetContract::get_opensea_seller_fee_basis_points()
+extern void PrimaryAssetContract_get_opensea_seller_fee_basis_points_mF2E433971DB5BFB434CD132172A547AA2C46F448 (void);
+// 0x0000014B System.Void PrimaryAssetContract::set_opensea_seller_fee_basis_points(System.Int32)
+extern void PrimaryAssetContract_set_opensea_seller_fee_basis_points_m013A02EA46F5878824308F5A558247BD2C7182B5 (void);
+// 0x0000014C System.Int32 PrimaryAssetContract::get_buyer_fee_basis_points()
+extern void PrimaryAssetContract_get_buyer_fee_basis_points_m2C2309D70923219A7D4641CA5C58E78AF8114F0D (void);
+// 0x0000014D System.Void PrimaryAssetContract::set_buyer_fee_basis_points(System.Int32)
+extern void PrimaryAssetContract_set_buyer_fee_basis_points_m69841B929CDC658BF954FBC4DA0C5B30B02C9CC0 (void);
+// 0x0000014E System.Int32 PrimaryAssetContract::get_seller_fee_basis_points()
+extern void PrimaryAssetContract_get_seller_fee_basis_points_m5861F587E1C95F775ABB8E14EB96FC597573A693 (void);
+// 0x0000014F System.Void PrimaryAssetContract::set_seller_fee_basis_points(System.Int32)
+extern void PrimaryAssetContract_set_seller_fee_basis_points_m33AD00BDAEDEC42A1AF1389AD5C8D97DFCF06836 (void);
+// 0x00000150 System.Object PrimaryAssetContract::get_payout_address()
+extern void PrimaryAssetContract_get_payout_address_m1F74EB5CE5AFB4F879B54D10FBD142EF00A6E8B1 (void);
+// 0x00000151 System.Void PrimaryAssetContract::set_payout_address(System.Object)
+extern void PrimaryAssetContract_set_payout_address_m87DA0A0AF9047FF885541066F36F1166FE9890D1 (void);
+// 0x00000152 System.Void PrimaryAssetContract::.ctor()
+extern void PrimaryAssetContract__ctor_mFD422EF17FB64717FEDDB7313902AA6DA637424E (void);
+// 0x00000153 System.Void Traits::.ctor()
+extern void Traits__ctor_m4C3926F6A14B00538A84704B2FEA6740F46273B7 (void);
+// 0x00000154 System.Int32 Stats::get_one_day_volume()
+extern void Stats_get_one_day_volume_m538C5D5AB584FB57D814121C628A82DF33D3400B (void);
+// 0x00000155 System.Void Stats::set_one_day_volume(System.Int32)
+extern void Stats_set_one_day_volume_m7AC1F1D4E57FBC82EEE3E3001E43BF28248D58D4 (void);
+// 0x00000156 System.Int32 Stats::get_one_day_change()
+extern void Stats_get_one_day_change_m6D34DE33C94800CB2E205F16809BDCD648F80731 (void);
+// 0x00000157 System.Void Stats::set_one_day_change(System.Int32)
+extern void Stats_set_one_day_change_m332CFCD9474AB4E7DA300B77E2A4267D553B349C (void);
+// 0x00000158 System.Int32 Stats::get_one_day_sales()
+extern void Stats_get_one_day_sales_m9AEA6C09AD05DFDDF0422F64180764BB23469257 (void);
+// 0x00000159 System.Void Stats::set_one_day_sales(System.Int32)
+extern void Stats_set_one_day_sales_m6F47CEAB7A406EBB10044D6504641B5BE154DD64 (void);
+// 0x0000015A System.Int32 Stats::get_one_day_average_price()
+extern void Stats_get_one_day_average_price_m45D590AB6E01C60CC4D8DC9C7FA6F23C43BE8509 (void);
+// 0x0000015B System.Void Stats::set_one_day_average_price(System.Int32)
+extern void Stats_set_one_day_average_price_m47FE0342A3D9923F1F228C3F38C07D8DFC731A5B (void);
+// 0x0000015C System.Int32 Stats::get_seven_day_volume()
+extern void Stats_get_seven_day_volume_m78E53F85E3F7FB186C52CDDC5106E01C26A00964 (void);
+// 0x0000015D System.Void Stats::set_seven_day_volume(System.Int32)
+extern void Stats_set_seven_day_volume_m0649654D5F50211464220ECD8FFBB41D69E2DB19 (void);
+// 0x0000015E System.Int32 Stats::get_seven_day_change()
+extern void Stats_get_seven_day_change_m15CAE0FC2175B2875B7ECC5574F74259452274AA (void);
+// 0x0000015F System.Void Stats::set_seven_day_change(System.Int32)
+extern void Stats_set_seven_day_change_m1235FD22A5C553F4FA4AD6C29770292A152707D6 (void);
+// 0x00000160 System.Int32 Stats::get_seven_day_sales()
+extern void Stats_get_seven_day_sales_mA5F3E1F746041205E0CFED78013AD89B105DB410 (void);
+// 0x00000161 System.Void Stats::set_seven_day_sales(System.Int32)
+extern void Stats_set_seven_day_sales_m4047E6A3819659959125666653B4135F10F82600 (void);
+// 0x00000162 System.Int32 Stats::get_seven_day_average_price()
+extern void Stats_get_seven_day_average_price_mCD01DEA632E848F7CB42406D8FB3ADC57C2BFADB (void);
+// 0x00000163 System.Void Stats::set_seven_day_average_price(System.Int32)
+extern void Stats_set_seven_day_average_price_m14500E2505A72DD1A04C951B3DCF9278771F9572 (void);
+// 0x00000164 System.Int32 Stats::get_thirty_day_volume()
+extern void Stats_get_thirty_day_volume_mB7C9F73026995D6D16F6105CDF337C1E14BDE6D0 (void);
+// 0x00000165 System.Void Stats::set_thirty_day_volume(System.Int32)
+extern void Stats_set_thirty_day_volume_m04C70E157BC07046F64B947D2F67A4A391E9EE9B (void);
+// 0x00000166 System.Int32 Stats::get_thirty_day_change()
+extern void Stats_get_thirty_day_change_m0E06A870D50051937CCBB998F43D89159407BA59 (void);
+// 0x00000167 System.Void Stats::set_thirty_day_change(System.Int32)
+extern void Stats_set_thirty_day_change_mB7CA93C0C45616011C79BA93E43C286137A13339 (void);
+// 0x00000168 System.Int32 Stats::get_thirty_day_sales()
+extern void Stats_get_thirty_day_sales_m33E0E07437F31082F6DD3B93930FBCC1ADEB47CA (void);
+// 0x00000169 System.Void Stats::set_thirty_day_sales(System.Int32)
+extern void Stats_set_thirty_day_sales_mF64295E0835E385F9A3A9FFEA3DFC571027FDAC9 (void);
+// 0x0000016A System.Int32 Stats::get_thirty_day_average_price()
+extern void Stats_get_thirty_day_average_price_mF9C0CD1B5412893042E9917CDC51F9E6966DF74E (void);
+// 0x0000016B System.Void Stats::set_thirty_day_average_price(System.Int32)
+extern void Stats_set_thirty_day_average_price_m178EDEB1D78BE14F31915BB6C5F85133E543A993 (void);
+// 0x0000016C System.Int32 Stats::get_total_volume()
+extern void Stats_get_total_volume_mAC48CCD84A2289AB56CC2471C386D6796DAC17BC (void);
+// 0x0000016D System.Void Stats::set_total_volume(System.Int32)
+extern void Stats_set_total_volume_mE02CF8E7CCC7030305A49B464D511BEFF44A8A71 (void);
+// 0x0000016E System.Int32 Stats::get_total_sales()
+extern void Stats_get_total_sales_m86A22708B9519FA1055AFF3BDEBFC1E3ADE51BFE (void);
+// 0x0000016F System.Void Stats::set_total_sales(System.Int32)
+extern void Stats_set_total_sales_mA64639784BB90EC33F7FEA6BC0DAD4282F6DE733 (void);
+// 0x00000170 System.Int32 Stats::get_total_supply()
+extern void Stats_get_total_supply_m1E85A63A5C9B171D5C089E290E671948D3285198 (void);
+// 0x00000171 System.Void Stats::set_total_supply(System.Int32)
+extern void Stats_set_total_supply_m24BF91EB3ADF8113E51C89FC11AF3BBBC311E41A (void);
+// 0x00000172 System.Int32 Stats::get_count()
+extern void Stats_get_count_mCD6399EBB3C3B00657441A047D290A20511E769A (void);
+// 0x00000173 System.Void Stats::set_count(System.Int32)
+extern void Stats_set_count_m5C44CB748163845FC7B00A04B877F74CBF1E0CB0 (void);
+// 0x00000174 System.Int32 Stats::get_num_owners()
+extern void Stats_get_num_owners_mA2F876116F48A67B37F6650DBEA01638C2C4F85A (void);
+// 0x00000175 System.Void Stats::set_num_owners(System.Int32)
+extern void Stats_set_num_owners_m772E74AAA5D811F7FAF1ECD08666148BCB3527AA (void);
+// 0x00000176 System.Int32 Stats::get_average_price()
+extern void Stats_get_average_price_mB2D69E0A8A4613B710C4272DE20008F492216C64 (void);
+// 0x00000177 System.Void Stats::set_average_price(System.Int32)
+extern void Stats_set_average_price_mA978D005107F198C28D82B51631B964206A78830 (void);
+// 0x00000178 System.Int32 Stats::get_num_reports()
+extern void Stats_get_num_reports_mF7AD6C205E0392EC72021983C91ECEBD9575921D (void);
+// 0x00000179 System.Void Stats::set_num_reports(System.Int32)
+extern void Stats_set_num_reports_m3BEA4DCA2245FBBC601BC941F6ECBFAA374EFC1F (void);
+// 0x0000017A System.Int32 Stats::get_market_cap()
+extern void Stats_get_market_cap_m9CEC4014A88909E89E1F6E350DDF34DACF5FED3A (void);
+// 0x0000017B System.Void Stats::set_market_cap(System.Int32)
+extern void Stats_set_market_cap_m07DB8730F512FD5113734DCF2C8C65D8C61B613E (void);
+// 0x0000017C System.Int32 Stats::get_floor_price()
+extern void Stats_get_floor_price_m5C9CC7D2ED03DF6E766520B75E5ABDF34FD90F6A (void);
+// 0x0000017D System.Void Stats::set_floor_price(System.Int32)
+extern void Stats_set_floor_price_m856FA5A2F60290F388BA9C6E3F9C5B4688CCC579 (void);
+// 0x0000017E System.Void Stats::.ctor()
+extern void Stats__ctor_m86D57BC6FFBC17545B914A808C1C0C5B12E0CD0A (void);
+// 0x0000017F System.String DisplayData::get_card_display_style()
+extern void DisplayData_get_card_display_style_m3F4C0F99532531019310AA61570D9599DEAAE4A0 (void);
+// 0x00000180 System.Void DisplayData::set_card_display_style(System.String)
+extern void DisplayData_set_card_display_style_m1498FC5A491AC477740DE97F573C0EEB571EC621 (void);
+// 0x00000181 System.Collections.Generic.List`1<System.Object> DisplayData::get_images()
+extern void DisplayData_get_images_m0D62C39636A4C8948781EB257439F56581680B24 (void);
+// 0x00000182 System.Void DisplayData::set_images(System.Collections.Generic.List`1<System.Object>)
+extern void DisplayData_set_images_m116369450D80AEC52C575B40854B24F6080244F8 (void);
+// 0x00000183 System.Void DisplayData::.ctor()
+extern void DisplayData__ctor_mBE5EA37A8F53813EF00E75B386EE69DDA8025CB0 (void);
+// 0x00000184 System.Collections.Generic.List`1<PrimaryAssetContract> OpenSeaCollectionsRoot::get_primary_asset_contracts()
+extern void OpenSeaCollectionsRoot_get_primary_asset_contracts_mD87F6C752D455383A921C551D227DE749B509818 (void);
+// 0x00000185 System.Void OpenSeaCollectionsRoot::set_primary_asset_contracts(System.Collections.Generic.List`1<PrimaryAssetContract>)
+extern void OpenSeaCollectionsRoot_set_primary_asset_contracts_m99ECF18714C1ED9FB777FFDE1FE3D2F214B0ACC1 (void);
+// 0x00000186 Traits OpenSeaCollectionsRoot::get_traits()
+extern void OpenSeaCollectionsRoot_get_traits_mAE0D0A4AB9320052366A66A85094BE087107AB68 (void);
+// 0x00000187 System.Void OpenSeaCollectionsRoot::set_traits(Traits)
+extern void OpenSeaCollectionsRoot_set_traits_m0CE4DAB6C07788DADAB5F4E84F27B1F410CDB3B0 (void);
+// 0x00000188 Stats OpenSeaCollectionsRoot::get_stats()
+extern void OpenSeaCollectionsRoot_get_stats_m0CDF9784A96EAF87527B07E1A389AFE4FFE3117A (void);
+// 0x00000189 System.Void OpenSeaCollectionsRoot::set_stats(Stats)
+extern void OpenSeaCollectionsRoot_set_stats_m4BC97BB3087A9545C92B3ABDCF44373678931D16 (void);
+// 0x0000018A System.Object OpenSeaCollectionsRoot::get_banner_image_url()
+extern void OpenSeaCollectionsRoot_get_banner_image_url_mDDB896F35DB3FCF1390366236730D13C5B469E52 (void);
+// 0x0000018B System.Void OpenSeaCollectionsRoot::set_banner_image_url(System.Object)
+extern void OpenSeaCollectionsRoot_set_banner_image_url_mA7216C6E2E5B38971645DEB400BB987A51D77A68 (void);
+// 0x0000018C System.Object OpenSeaCollectionsRoot::get_chat_url()
+extern void OpenSeaCollectionsRoot_get_chat_url_m3EE0986EE994461C0045780507859E6382219FD4 (void);
+// 0x0000018D System.Void OpenSeaCollectionsRoot::set_chat_url(System.Object)
+extern void OpenSeaCollectionsRoot_set_chat_url_m895797100B9B2E4987785C898B96C1135DB4FE97 (void);
+// 0x0000018E System.DateTime OpenSeaCollectionsRoot::get_created_date()
+extern void OpenSeaCollectionsRoot_get_created_date_mDC350C42070F8E0EB8075300E03515FEBA6AC508 (void);
+// 0x0000018F System.Void OpenSeaCollectionsRoot::set_created_date(System.DateTime)
+extern void OpenSeaCollectionsRoot_set_created_date_m0C6A099B91579CBDAFF0D00A93960352105D3DF4 (void);
+// 0x00000190 System.Boolean OpenSeaCollectionsRoot::get_default_to_fiat()
+extern void OpenSeaCollectionsRoot_get_default_to_fiat_m00EE1749E3E263EB1E0006021511F44DEC591383 (void);
+// 0x00000191 System.Void OpenSeaCollectionsRoot::set_default_to_fiat(System.Boolean)
+extern void OpenSeaCollectionsRoot_set_default_to_fiat_mDD271741A666E681EAD130EFAF28552F1F208E10 (void);
+// 0x00000192 System.Object OpenSeaCollectionsRoot::get_description()
+extern void OpenSeaCollectionsRoot_get_description_m77C22A39F6017ADD226B7B29A261139AFD92EF23 (void);
+// 0x00000193 System.Void OpenSeaCollectionsRoot::set_description(System.Object)
+extern void OpenSeaCollectionsRoot_set_description_mE9682C25AABBFF6099BB28DC1A731DE07525B0FC (void);
+// 0x00000194 System.String OpenSeaCollectionsRoot::get_dev_buyer_fee_basis_points()
+extern void OpenSeaCollectionsRoot_get_dev_buyer_fee_basis_points_m6EE85C361C753D5348C4CBF0D10E0528F435EE13 (void);
+// 0x00000195 System.Void OpenSeaCollectionsRoot::set_dev_buyer_fee_basis_points(System.String)
+extern void OpenSeaCollectionsRoot_set_dev_buyer_fee_basis_points_m11D1FF182E5C94725EF5D53BC69FF48361D9E8B5 (void);
+// 0x00000196 System.String OpenSeaCollectionsRoot::get_dev_seller_fee_basis_points()
+extern void OpenSeaCollectionsRoot_get_dev_seller_fee_basis_points_m8F03A0F4066D5D03CF9C69630EFB3AAF66790B6F (void);
+// 0x00000197 System.Void OpenSeaCollectionsRoot::set_dev_seller_fee_basis_points(System.String)
+extern void OpenSeaCollectionsRoot_set_dev_seller_fee_basis_points_mA1632BF96E4F5967916F155836DC56238CD2F853 (void);
+// 0x00000198 System.Object OpenSeaCollectionsRoot::get_discord_url()
+extern void OpenSeaCollectionsRoot_get_discord_url_m210417118ECA04522E13BF3D36B3EA191B375E05 (void);
+// 0x00000199 System.Void OpenSeaCollectionsRoot::set_discord_url(System.Object)
+extern void OpenSeaCollectionsRoot_set_discord_url_m5F53C6675F68EDA57DE99FCB441A48267590EA37 (void);
+// 0x0000019A DisplayData OpenSeaCollectionsRoot::get_display_data()
+extern void OpenSeaCollectionsRoot_get_display_data_mC030DB85AE860B3F8A802D516D7803488640F64F (void);
+// 0x0000019B System.Void OpenSeaCollectionsRoot::set_display_data(DisplayData)
+extern void OpenSeaCollectionsRoot_set_display_data_mD98DA1EFEFEA55094BD05BEC0DF01DF29589EA2D (void);
+// 0x0000019C System.Object OpenSeaCollectionsRoot::get_external_url()
+extern void OpenSeaCollectionsRoot_get_external_url_mDBCED7C2F97B4469CF1895A914BF0BC38EA46447 (void);
+// 0x0000019D System.Void OpenSeaCollectionsRoot::set_external_url(System.Object)
+extern void OpenSeaCollectionsRoot_set_external_url_m36CE5C89603AB871BEC9AAF124C4478E7BF071EB (void);
+// 0x0000019E System.Boolean OpenSeaCollectionsRoot::get_featured()
+extern void OpenSeaCollectionsRoot_get_featured_m88E58FA4CF149F19284CAA445B0BF96E19E1BC57 (void);
+// 0x0000019F System.Void OpenSeaCollectionsRoot::set_featured(System.Boolean)
+extern void OpenSeaCollectionsRoot_set_featured_m2D710DC7B26EF8A459D9DFFEFAB4055578C90FBE (void);
+// 0x000001A0 System.Object OpenSeaCollectionsRoot::get_featured_image_url()
+extern void OpenSeaCollectionsRoot_get_featured_image_url_m2C9044C79A4C6E84E48CB02EFF5EA1EBB30F56F3 (void);
+// 0x000001A1 System.Void OpenSeaCollectionsRoot::set_featured_image_url(System.Object)
+extern void OpenSeaCollectionsRoot_set_featured_image_url_m44419070678C0595C997CD8BB4AA0487C8E99E87 (void);
+// 0x000001A2 System.Boolean OpenSeaCollectionsRoot::get_hidden()
+extern void OpenSeaCollectionsRoot_get_hidden_m9F8FDEDC5487335AA5FA1F13648A1C1AA6F91C14 (void);
+// 0x000001A3 System.Void OpenSeaCollectionsRoot::set_hidden(System.Boolean)
+extern void OpenSeaCollectionsRoot_set_hidden_mC21E584A6504D2BC8723EA85B5382290C742D7BE (void);
+// 0x000001A4 System.String OpenSeaCollectionsRoot::get_safelist_request_status()
+extern void OpenSeaCollectionsRoot_get_safelist_request_status_m43CE43A656B418174C7DDF5681F29C0C61494A1C (void);
+// 0x000001A5 System.Void OpenSeaCollectionsRoot::set_safelist_request_status(System.String)
+extern void OpenSeaCollectionsRoot_set_safelist_request_status_m3826C855E3D6A793AAA9546182863581F4BBA95D (void);
+// 0x000001A6 System.Object OpenSeaCollectionsRoot::get_image_url()
+extern void OpenSeaCollectionsRoot_get_image_url_m9BB0BBD682A263644720FAE5E7E9BC436B23B645 (void);
+// 0x000001A7 System.Void OpenSeaCollectionsRoot::set_image_url(System.Object)
+extern void OpenSeaCollectionsRoot_set_image_url_mA73C02940B7AAF9A4DCDACC8F5297FC5E442085D (void);
+// 0x000001A8 System.Boolean OpenSeaCollectionsRoot::get_is_subject_to_whitelist()
+extern void OpenSeaCollectionsRoot_get_is_subject_to_whitelist_mE5BA75F124CF5913A1C3FE885B4F9865DA6F82EE (void);
+// 0x000001A9 System.Void OpenSeaCollectionsRoot::set_is_subject_to_whitelist(System.Boolean)
+extern void OpenSeaCollectionsRoot_set_is_subject_to_whitelist_mA68CD333CB4DFE705C374C280941FC0AF562F8CF (void);
+// 0x000001AA System.Object OpenSeaCollectionsRoot::get_large_image_url()
+extern void OpenSeaCollectionsRoot_get_large_image_url_m1FDF3BCACBD4F049BD5A2C87CEC9B49F5067C5BA (void);
+// 0x000001AB System.Void OpenSeaCollectionsRoot::set_large_image_url(System.Object)
+extern void OpenSeaCollectionsRoot_set_large_image_url_mE685FB249B9B6AF3D7E91F01A7AF6369EBB200AB (void);
+// 0x000001AC System.Object OpenSeaCollectionsRoot::get_medium_username()
+extern void OpenSeaCollectionsRoot_get_medium_username_mE6D36BFCBA5C279049DF18CB0BC9541AF5E98376 (void);
+// 0x000001AD System.Void OpenSeaCollectionsRoot::set_medium_username(System.Object)
+extern void OpenSeaCollectionsRoot_set_medium_username_mA26870231AC1B81DD9B3507A7333CC0A3079010F (void);
+// 0x000001AE System.String OpenSeaCollectionsRoot::get_name()
+extern void OpenSeaCollectionsRoot_get_name_mA950CBD68D8190CE4C87B37CB456D41815487C51 (void);
+// 0x000001AF System.Void OpenSeaCollectionsRoot::set_name(System.String)
+extern void OpenSeaCollectionsRoot_set_name_mEB87AA4AFA3BE461C0A94677926D6DDBF2D77B1A (void);
+// 0x000001B0 System.Boolean OpenSeaCollectionsRoot::get_only_proxied_transfers()
+extern void OpenSeaCollectionsRoot_get_only_proxied_transfers_m5BD0A250E1ACB4C3823B535549B8085A0F1B3E1C (void);
+// 0x000001B1 System.Void OpenSeaCollectionsRoot::set_only_proxied_transfers(System.Boolean)
+extern void OpenSeaCollectionsRoot_set_only_proxied_transfers_m002306E9D608F146BCE86315D202EDA06C8E7744 (void);
+// 0x000001B2 System.String OpenSeaCollectionsRoot::get_opensea_buyer_fee_basis_points()
+extern void OpenSeaCollectionsRoot_get_opensea_buyer_fee_basis_points_m41996BEE386D08875112214B523EC69BD6D3DEF0 (void);
+// 0x000001B3 System.Void OpenSeaCollectionsRoot::set_opensea_buyer_fee_basis_points(System.String)
+extern void OpenSeaCollectionsRoot_set_opensea_buyer_fee_basis_points_m9EF5A71EF322A454E25A996F4F5BA69F1488463B (void);
+// 0x000001B4 System.String OpenSeaCollectionsRoot::get_opensea_seller_fee_basis_points()
+extern void OpenSeaCollectionsRoot_get_opensea_seller_fee_basis_points_m9670E987BBAFBBB9DA9A3D1790928A9275B59C78 (void);
+// 0x000001B5 System.Void OpenSeaCollectionsRoot::set_opensea_seller_fee_basis_points(System.String)
+extern void OpenSeaCollectionsRoot_set_opensea_seller_fee_basis_points_m556F7AD6DF0F7EB2177A70E7EB68C1897092579B (void);
+// 0x000001B6 System.Object OpenSeaCollectionsRoot::get_payout_address()
+extern void OpenSeaCollectionsRoot_get_payout_address_m75D3CD4A258441FF31F41F8F79985D98B32F50DE (void);
+// 0x000001B7 System.Void OpenSeaCollectionsRoot::set_payout_address(System.Object)
+extern void OpenSeaCollectionsRoot_set_payout_address_mB4A792B658C570102B28E71EB406A16BB7BD54AD (void);
+// 0x000001B8 System.Boolean OpenSeaCollectionsRoot::get_require_email()
+extern void OpenSeaCollectionsRoot_get_require_email_m00423BD08069012D8B6ED40EEC438A01C5B822F0 (void);
+// 0x000001B9 System.Void OpenSeaCollectionsRoot::set_require_email(System.Boolean)
+extern void OpenSeaCollectionsRoot_set_require_email_m637790249EAB5F40C6679F4F34CB663E97AEF0F9 (void);
+// 0x000001BA System.Object OpenSeaCollectionsRoot::get_short_description()
+extern void OpenSeaCollectionsRoot_get_short_description_m8837FD2BB27D04FD21324C9C8A4F5055659B1DFB (void);
+// 0x000001BB System.Void OpenSeaCollectionsRoot::set_short_description(System.Object)
+extern void OpenSeaCollectionsRoot_set_short_description_m4CDC05DF39E4F4BAA3D31290CBF1FCEFC5BA54DF (void);
+// 0x000001BC System.String OpenSeaCollectionsRoot::get_slug()
+extern void OpenSeaCollectionsRoot_get_slug_m8220018F37E8488CE775882B5A4C538FE02DECCD (void);
+// 0x000001BD System.Void OpenSeaCollectionsRoot::set_slug(System.String)
+extern void OpenSeaCollectionsRoot_set_slug_m55E826353EF07D8B9A13A7F69AD41E90A74919C9 (void);
+// 0x000001BE System.Object OpenSeaCollectionsRoot::get_telegram_url()
+extern void OpenSeaCollectionsRoot_get_telegram_url_mF7F62A932F997541268150E37F2BA00B4089A126 (void);
+// 0x000001BF System.Void OpenSeaCollectionsRoot::set_telegram_url(System.Object)
+extern void OpenSeaCollectionsRoot_set_telegram_url_mE0BBEAB6BE09386592B5C16CEDD6C092E71D0A3F (void);
+// 0x000001C0 System.Object OpenSeaCollectionsRoot::get_twitter_username()
+extern void OpenSeaCollectionsRoot_get_twitter_username_m8F9D1AFBF9132856C823337BD0A93564324F1D1F (void);
+// 0x000001C1 System.Void OpenSeaCollectionsRoot::set_twitter_username(System.Object)
+extern void OpenSeaCollectionsRoot_set_twitter_username_m97BA59F5AEF142B5A2CF93B4E68EB8BC3ABB3C30 (void);
+// 0x000001C2 System.Object OpenSeaCollectionsRoot::get_instagram_username()
+extern void OpenSeaCollectionsRoot_get_instagram_username_m62576E7AC888B63DB803648413BCF8E25474EDEF (void);
+// 0x000001C3 System.Void OpenSeaCollectionsRoot::set_instagram_username(System.Object)
+extern void OpenSeaCollectionsRoot_set_instagram_username_m1CE2D0CD59CEDDA6ABE65EB183EA88035AB264C0 (void);
+// 0x000001C4 System.Object OpenSeaCollectionsRoot::get_wiki_url()
+extern void OpenSeaCollectionsRoot_get_wiki_url_mA7E521C13B296DCB5949F4517F5D786A3D21D39D (void);
+// 0x000001C5 System.Void OpenSeaCollectionsRoot::set_wiki_url(System.Object)
+extern void OpenSeaCollectionsRoot_set_wiki_url_mC0FC793E99148FC7DABE6F9EF1A1380CC7C1427C (void);
+// 0x000001C6 System.Boolean OpenSeaCollectionsRoot::get_is_nsfw()
+extern void OpenSeaCollectionsRoot_get_is_nsfw_mA579AF5336511E0BB787185D91DF24D14332670A (void);
+// 0x000001C7 System.Void OpenSeaCollectionsRoot::set_is_nsfw(System.Boolean)
+extern void OpenSeaCollectionsRoot_set_is_nsfw_m28E8429E872225FFFCC66555AF4B0219D5201726 (void);
+// 0x000001C8 System.Int32 OpenSeaCollectionsRoot::get_owned_asset_count()
+extern void OpenSeaCollectionsRoot_get_owned_asset_count_m5C06D961E07969620D81D085A94D571E0E282447 (void);
+// 0x000001C9 System.Void OpenSeaCollectionsRoot::set_owned_asset_count(System.Int32)
+extern void OpenSeaCollectionsRoot_set_owned_asset_count_m15C076893266651A29033EF7817B544F4E20F7D0 (void);
+// 0x000001CA System.Void OpenSeaCollectionsRoot::.ctor()
+extern void OpenSeaCollectionsRoot__ctor_m2C97E004C5FB933362815FD8F895078C3B923EAB (void);
+// 0x000001CB System.Void NPCController::OnTriggerEnter2D(UnityEngine.Collider2D)
 extern void NPCController_OnTriggerEnter2D_mCCC191509FF7585F0B0FC5D58C75404DBFE9C1D9 (void);
-// 0x00000127 System.Void NPCController::OnTriggerExit2D(UnityEngine.Collider2D)
+// 0x000001CC System.Void NPCController::OnTriggerExit2D(UnityEngine.Collider2D)
 extern void NPCController_OnTriggerExit2D_m23C5BC781E47B4D0982F372A781E3C4079535B59 (void);
-// 0x00000128 System.Void NPCController::.ctor()
+// 0x000001CD System.Void NPCController::.ctor()
 extern void NPCController__ctor_mA7F58AC0C72103FE8578AD810E506AB67EB8455E (void);
-// 0x00000129 System.Void OpenURL::Start()
+// 0x000001CE System.Void OpenURL::Start()
 extern void OpenURL_Start_m276D41B830114D532DF208D19BC8818B5D5CB2BE (void);
-// 0x0000012A System.Void OpenURL::Btn_OpenUrl(System.Int32)
+// 0x000001CF System.Void OpenURL::Btn_OpenUrl(System.Int32)
 extern void OpenURL_Btn_OpenUrl_m4EA17EDDFF6E3D1EA33DF695DF6C21FAE743AFBB (void);
-// 0x0000012B System.Void OpenURL::.ctor()
+// 0x000001D0 System.Void OpenURL::.ctor()
 extern void OpenURL__ctor_mBD893164A0E0FE8CD0999BFF1AE11E07C5244D5D (void);
-// 0x0000012C System.Void PlayerController::Update()
+// 0x000001D1 System.Void PlayerController::Update()
 extern void PlayerController_Update_mB31159CAD7DD2329859472554BC9154A83D8E794 (void);
-// 0x0000012D System.Void PlayerController::FixedUpdate()
+// 0x000001D2 System.Void PlayerController::FixedUpdate()
 extern void PlayerController_FixedUpdate_m54EE3ADAA7597303B1F69849B233D1A68D880B14 (void);
-// 0x0000012E System.Void PlayerController::Move_Keyboard()
+// 0x000001D3 System.Void PlayerController::Move_Keyboard()
 extern void PlayerController_Move_Keyboard_m105B3AC1E6449FD5C5A7F1D764CA8594499A7C5E (void);
-// 0x0000012F System.Void PlayerController::.ctor()
+// 0x000001D4 System.Void PlayerController::.ctor()
 extern void PlayerController__ctor_mF30385729DAFDFCB895C4939F6051DCE6C0327FB (void);
-// 0x00000130 System.Void Dialogue_Manager_Tiny::Start()
+// 0x000001D5 System.Void OpenSeaStatusText::StartTest()
+extern void OpenSeaStatusText_StartTest_mE3469EB7F3B3A688DDF7144BA43243299A7FFF57 (void);
+// 0x000001D6 System.Void OpenSeaStatusText::StatusTrue()
+extern void OpenSeaStatusText_StatusTrue_m4AA6C192A86C0558FA9172EBD5A9A1FAD12CB9DC (void);
+// 0x000001D7 System.Void OpenSeaStatusText::StatusFalse()
+extern void OpenSeaStatusText_StatusFalse_m446F34A97D378C4E1B79E550EF36261FE668F8FC (void);
+// 0x000001D8 System.Void OpenSeaStatusText::.ctor()
+extern void OpenSeaStatusText__ctor_m0B76D19B779F2F92E2AA1B13EF1EBC0EB361C38B (void);
+// 0x000001D9 System.String ConnectButton::WalletAddress()
+extern void ConnectButton_WalletAddress_mBB530BC6D12147B765F05FB5A26245450064B81B (void);
+// 0x000001DA System.Void ConnectButton::Start()
+extern void ConnectButton_Start_m13B99EB1096DFE9A76EB05F225A5BF797E151ADE (void);
+// 0x000001DB System.Void ConnectButton::OnClick()
+extern void ConnectButton_OnClick_mB10DF3E163D314F0A63E0038CFDC99EEB04BF659 (void);
+// 0x000001DC System.Void ConnectButton::.ctor()
+extern void ConnectButton__ctor_mF58EF8D80BBB0AE8E27850ADE957F54BBB0F32F3 (void);
+// 0x000001DD System.String MetaMaskConnectWalletButton::WalletAddress()
+extern void MetaMaskConnectWalletButton_WalletAddress_mAA2419236CE23D1062D8DD2FF27D6F7CC54F8596 (void);
+// 0x000001DE System.Void MetaMaskConnectWalletButton::Start()
+extern void MetaMaskConnectWalletButton_Start_mED5EAA6DA517F3E160A5D7DD1EEA41FA7795B7CE (void);
+// 0x000001DF System.Void MetaMaskConnectWalletButton::OnClick()
+extern void MetaMaskConnectWalletButton_OnClick_m3A9EE46D4C16C4AD63432B40C5E6C25432A1EF49 (void);
+// 0x000001E0 System.Void MetaMaskConnectWalletButton::.ctor()
+extern void MetaMaskConnectWalletButton__ctor_mB2067E978635A331963413B1026943953DF33228 (void);
+// 0x000001E1 MetaMaskManager MetaMaskManager::get_instance()
+extern void MetaMaskManager_get_instance_m7066C9BCB66575BACE18CC9BF5E1ED6A34467A6D (void);
+// 0x000001E2 System.Void MetaMaskManager::Awake()
+extern void MetaMaskManager_Awake_m84569576863F94D4EC1F36B57CD22A0ECFB11A57 (void);
+// 0x000001E3 System.Void MetaMaskManager::initApp()
+extern void MetaMaskManager_initApp_m21A9C0BD6CCE23BA099D676809E5564A2731EE43 (void);
+// 0x000001E4 System.String MetaMaskManager::GetWalletAddres()
+extern void MetaMaskManager_GetWalletAddres_mAFD82F1351EFF0C6FFE2EA1389B30A9862E059DC (void);
+// 0x000001E5 System.Void MetaMaskManager::SetWalletAddress(System.String)
+extern void MetaMaskManager_SetWalletAddress_m80064DE7A39407C8E463716BAC994F47629D3CFE (void);
+// 0x000001E6 System.Boolean MetaMaskManager::HasUMGNFT()
+extern void MetaMaskManager_HasUMGNFT_m9127000A33AA309317672EE13F427751277E841D (void);
+// 0x000001E7 System.Void MetaMaskManager::.ctor()
+extern void MetaMaskManager__ctor_m02F63FECC50CDF26C66BF847CAAD2F6027446AFD (void);
+// 0x000001E8 System.Boolean OpenSea::HasUMGCollection(System.String)
+extern void OpenSea_HasUMGCollection_mE493772A414F719CAA346FEA7F0A2348C9B3A075 (void);
+// 0x000001E9 System.Boolean OpenSea::SearchCollection(System.Collections.Generic.List`1<OpenSeaCollectionsRoot>)
+extern void OpenSea_SearchCollection_m0ED65A64FBF044CE3CC113C690892F193F2000D6 (void);
+// 0x000001EA System.Void OpenSea::.ctor()
+extern void OpenSea__ctor_mE6AE8107BDDE7B6E9D1B9DA85801672284AF3DFE (void);
+// 0x000001EB System.Void Dialogue_Manager_Tiny::Start()
 extern void Dialogue_Manager_Tiny_Start_mE48EE7E2B9CD37D740672634D872D4869E12C21B (void);
-// 0x00000131 System.Void Dialogue_Manager_Tiny::StartDialogue(Dialogue)
+// 0x000001EC System.Void Dialogue_Manager_Tiny::StartDialogue(Dialogue)
 extern void Dialogue_Manager_Tiny_StartDialogue_mA868A1C7C0BEB514F204F8E4D1562352AFDDBBCB (void);
-// 0x00000132 System.Void Dialogue_Manager_Tiny::DisplayNextSentence()
+// 0x000001ED System.Void Dialogue_Manager_Tiny::DisplayNextSentence()
 extern void Dialogue_Manager_Tiny_DisplayNextSentence_m092A2D582AB1D34E7B6E8B074F6101DFAA3A8ADC (void);
-// 0x00000133 System.Collections.IEnumerator Dialogue_Manager_Tiny::TypeSentence(System.String)
+// 0x000001EE System.Collections.IEnumerator Dialogue_Manager_Tiny::TypeSentence(System.String)
 extern void Dialogue_Manager_Tiny_TypeSentence_m4A505F6F403699C6B3FF141BEBDB9FA6A31CCEF6 (void);
-// 0x00000134 System.Void Dialogue_Manager_Tiny::EndDialogue()
+// 0x000001EF System.Void Dialogue_Manager_Tiny::EndDialogue()
 extern void Dialogue_Manager_Tiny_EndDialogue_mD5C7443A2681216F53D4C67B88363D2F8C62137F (void);
-// 0x00000135 System.Collections.IEnumerator Dialogue_Manager_Tiny::PanelToOpenAtEndOfTalking_Routine()
+// 0x000001F0 System.Collections.IEnumerator Dialogue_Manager_Tiny::PanelToOpenAtEndOfTalking_Routine()
 extern void Dialogue_Manager_Tiny_PanelToOpenAtEndOfTalking_Routine_mCF314E9E89C99DBDA3ACFCF5BAC7531A0D7C7D9C (void);
-// 0x00000136 System.Void Dialogue_Manager_Tiny::Reset_DialogueText_Size()
+// 0x000001F1 System.Void Dialogue_Manager_Tiny::Reset_DialogueText_Size()
 extern void Dialogue_Manager_Tiny_Reset_DialogueText_Size_m5C6015A05BBBD730D1A294CDE8F1F277AE0E9B20 (void);
-// 0x00000137 System.Void Dialogue_Manager_Tiny::.ctor()
+// 0x000001F2 System.Void Dialogue_Manager_Tiny::.ctor()
 extern void Dialogue_Manager_Tiny__ctor_mEC7CFA26793BCB1E007EC4DD1A6E679E4A1D0558 (void);
-// 0x00000138 System.Void Dialogue_Manager_Tiny/<TypeSentence>d__9::.ctor(System.Int32)
+// 0x000001F3 System.Void Dialogue_Manager_Tiny/<TypeSentence>d__9::.ctor(System.Int32)
 extern void U3CTypeSentenceU3Ed__9__ctor_mB2281967F10AC91EDFF6BF9F5C7A989F7DB98DC8 (void);
-// 0x00000139 System.Void Dialogue_Manager_Tiny/<TypeSentence>d__9::System.IDisposable.Dispose()
+// 0x000001F4 System.Void Dialogue_Manager_Tiny/<TypeSentence>d__9::System.IDisposable.Dispose()
 extern void U3CTypeSentenceU3Ed__9_System_IDisposable_Dispose_m4FECF88AA581E636ACA3763D14932D000CD28ADC (void);
-// 0x0000013A System.Boolean Dialogue_Manager_Tiny/<TypeSentence>d__9::MoveNext()
+// 0x000001F5 System.Boolean Dialogue_Manager_Tiny/<TypeSentence>d__9::MoveNext()
 extern void U3CTypeSentenceU3Ed__9_MoveNext_m778C6B58CD41BA76B9A657D0B132C35F7D6FF024 (void);
-// 0x0000013B System.Object Dialogue_Manager_Tiny/<TypeSentence>d__9::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000001F6 System.Object Dialogue_Manager_Tiny/<TypeSentence>d__9::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CTypeSentenceU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mBF0976C8C7C12DBE3BE663E3650E4502E3B455C6 (void);
-// 0x0000013C System.Void Dialogue_Manager_Tiny/<TypeSentence>d__9::System.Collections.IEnumerator.Reset()
+// 0x000001F7 System.Void Dialogue_Manager_Tiny/<TypeSentence>d__9::System.Collections.IEnumerator.Reset()
 extern void U3CTypeSentenceU3Ed__9_System_Collections_IEnumerator_Reset_mFF95EFC9A6476F3F5EED044D772FC225C22D1393 (void);
-// 0x0000013D System.Object Dialogue_Manager_Tiny/<TypeSentence>d__9::System.Collections.IEnumerator.get_Current()
+// 0x000001F8 System.Object Dialogue_Manager_Tiny/<TypeSentence>d__9::System.Collections.IEnumerator.get_Current()
 extern void U3CTypeSentenceU3Ed__9_System_Collections_IEnumerator_get_Current_m3502F775A3BD1FC1E39C7E2469171E4C5B18666F (void);
-// 0x0000013E System.Void Dialogue_Manager_Tiny/<PanelToOpenAtEndOfTalking_Routine>d__11::.ctor(System.Int32)
+// 0x000001F9 System.Void Dialogue_Manager_Tiny/<PanelToOpenAtEndOfTalking_Routine>d__11::.ctor(System.Int32)
 extern void U3CPanelToOpenAtEndOfTalking_RoutineU3Ed__11__ctor_mA1810F74A395E4F2687E5F2B5C848090842424CA (void);
-// 0x0000013F System.Void Dialogue_Manager_Tiny/<PanelToOpenAtEndOfTalking_Routine>d__11::System.IDisposable.Dispose()
+// 0x000001FA System.Void Dialogue_Manager_Tiny/<PanelToOpenAtEndOfTalking_Routine>d__11::System.IDisposable.Dispose()
 extern void U3CPanelToOpenAtEndOfTalking_RoutineU3Ed__11_System_IDisposable_Dispose_m2D49C63DD6CB9636A49B0E8F96FB75A9DD0FB45B (void);
-// 0x00000140 System.Boolean Dialogue_Manager_Tiny/<PanelToOpenAtEndOfTalking_Routine>d__11::MoveNext()
+// 0x000001FB System.Boolean Dialogue_Manager_Tiny/<PanelToOpenAtEndOfTalking_Routine>d__11::MoveNext()
 extern void U3CPanelToOpenAtEndOfTalking_RoutineU3Ed__11_MoveNext_m12C46931F55A2960CC9AB9A8F0A49B1E2918BC75 (void);
-// 0x00000141 System.Object Dialogue_Manager_Tiny/<PanelToOpenAtEndOfTalking_Routine>d__11::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000001FC System.Object Dialogue_Manager_Tiny/<PanelToOpenAtEndOfTalking_Routine>d__11::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CPanelToOpenAtEndOfTalking_RoutineU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA122D052A422B0DB45FE5159C5AD476276201401 (void);
-// 0x00000142 System.Void Dialogue_Manager_Tiny/<PanelToOpenAtEndOfTalking_Routine>d__11::System.Collections.IEnumerator.Reset()
+// 0x000001FD System.Void Dialogue_Manager_Tiny/<PanelToOpenAtEndOfTalking_Routine>d__11::System.Collections.IEnumerator.Reset()
 extern void U3CPanelToOpenAtEndOfTalking_RoutineU3Ed__11_System_Collections_IEnumerator_Reset_m8C64D14407F1649D18E7626E2A67292FD9507E73 (void);
-// 0x00000143 System.Object Dialogue_Manager_Tiny/<PanelToOpenAtEndOfTalking_Routine>d__11::System.Collections.IEnumerator.get_Current()
+// 0x000001FE System.Object Dialogue_Manager_Tiny/<PanelToOpenAtEndOfTalking_Routine>d__11::System.Collections.IEnumerator.get_Current()
 extern void U3CPanelToOpenAtEndOfTalking_RoutineU3Ed__11_System_Collections_IEnumerator_get_Current_m2828F73ED6CECA242CBF6351A66FD4EBE706E169 (void);
-// 0x00000144 System.Void Dialogue_Trigger_Tiny::TriggerDialogue()
+// 0x000001FF System.Void Dialogue_Trigger_Tiny::TriggerDialogue()
 extern void Dialogue_Trigger_Tiny_TriggerDialogue_m816086BE2797F9D405D2030DD5F5962A93547BDF (void);
-// 0x00000145 System.Void Dialogue_Trigger_Tiny::.ctor()
+// 0x00000200 System.Void Dialogue_Trigger_Tiny::.ctor()
 extern void Dialogue_Trigger_Tiny__ctor_mD3EFC7ED595FDB0C0DC4A374C8879279F3E4154C (void);
-// 0x00000146 UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient/Blend UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::get_BlendMode()
+// 0x00000201 UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient/Blend UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::get_BlendMode()
 extern void UIGradient_get_BlendMode_m2D06A0495A86966B2FC1ABF700C6628DCDE3895D (void);
-// 0x00000147 System.Void UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::set_BlendMode(UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient/Blend)
+// 0x00000202 System.Void UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::set_BlendMode(UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient/Blend)
 extern void UIGradient_set_BlendMode_m3CEA9838792C4C502A47E655B67ECE10F2207173 (void);
-// 0x00000148 UnityEngine.Gradient UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::get_EffectGradient()
+// 0x00000203 UnityEngine.Gradient UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::get_EffectGradient()
 extern void UIGradient_get_EffectGradient_mB7F98C04278EBBF2A8FBD9772C88F8CF8F243FEB (void);
-// 0x00000149 System.Void UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::set_EffectGradient(UnityEngine.Gradient)
+// 0x00000204 System.Void UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::set_EffectGradient(UnityEngine.Gradient)
 extern void UIGradient_set_EffectGradient_mD0637098E83DC8C93F14957EC41EE06675CB5BD6 (void);
-// 0x0000014A UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient/Type UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::get_GradientType()
+// 0x00000205 UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient/Type UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::get_GradientType()
 extern void UIGradient_get_GradientType_mB34556C9ADB7B8D78C30E4A9885540E6760219B1 (void);
-// 0x0000014B System.Void UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::set_GradientType(UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient/Type)
+// 0x00000206 System.Void UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::set_GradientType(UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient/Type)
 extern void UIGradient_set_GradientType_mD025689C6FC1C7C1406D64257C60FB6DEBA2F53F (void);
-// 0x0000014C System.Single UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::get_Offset()
+// 0x00000207 System.Single UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::get_Offset()
 extern void UIGradient_get_Offset_m9B23941F9D0891B19F0AF5CDDC120C6E70EF77D9 (void);
-// 0x0000014D System.Void UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::set_Offset(System.Single)
+// 0x00000208 System.Void UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::set_Offset(System.Single)
 extern void UIGradient_set_Offset_m39D693DF3A121BABE164AB7E1E4902D67549A8F5 (void);
-// 0x0000014E System.Void UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::ModifyMesh(UnityEngine.UI.VertexHelper)
+// 0x00000209 System.Void UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::ModifyMesh(UnityEngine.UI.VertexHelper)
 extern void UIGradient_ModifyMesh_mFA413A5F7D0298960861F19CBD37AAF1F5445AAF (void);
-// 0x0000014F UnityEngine.Color UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::BlendColor(UnityEngine.Color,UnityEngine.Color)
+// 0x0000020A UnityEngine.Color UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::BlendColor(UnityEngine.Color,UnityEngine.Color)
 extern void UIGradient_BlendColor_m9960176FD00D4198FFB816D927B360684BC71F14 (void);
-// 0x00000150 System.Void UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::.ctor()
+// 0x0000020B System.Void UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::.ctor()
 extern void UIGradient__ctor_m3D49905D25166B3BDA6F118D1E69FA43DA6E06A5 (void);
-static Il2CppMethodPointer s_methodPointers[336] = 
+static Il2CppMethodPointer s_methodPointers[523] = 
 {
 	NULL,
 	NULL,
@@ -976,6 +1350,171 @@ static Il2CppMethodPointer s_methodPointers[336] =
 	CameraController__ctor_m07EC5A8C82742876097619BE7DD9043F47327DAE,
 	FrameRate_OnEnable_m7CFFE9C1A994E432AE437B9EC680BD9429EE6360,
 	FrameRate__ctor_m5C75B8C15C09497149D5C651DACE28180943B587,
+	PrimaryAssetContract_get_address_m6FE4E2B22B3052A473CF03D10A8CE75259B3BE25,
+	PrimaryAssetContract_set_address_m6797D063D22C0D9A1C2F8443E3A529907761296F,
+	PrimaryAssetContract_get_asset_contract_type_mFC76BD28265C5036366DD69813686775FCA73E5E,
+	PrimaryAssetContract_set_asset_contract_type_m5267937F052240C3A14F4876D5AC975790F1C60F,
+	PrimaryAssetContract_get_created_date_mC2A7BC50CA3CFB36184D14912C44C72956C4A2B6,
+	PrimaryAssetContract_set_created_date_m1A09A8ACF698F4F7FA403E816800D33690F38E99,
+	PrimaryAssetContract_get_name_m6C92114EA2DBD2C47ABB184E41896D677C6DC78E,
+	PrimaryAssetContract_set_name_m4853E6E45D65716A67DE8C02B5C8BE1A0A865734,
+	PrimaryAssetContract_get_nft_version_m53F2F79B65610E4B42CAF14BEDE422A194C6C14C,
+	PrimaryAssetContract_set_nft_version_m52937BA805008B04948A630B61B8E716C33F6833,
+	PrimaryAssetContract_get_opensea_version_m00A22153B0A89304DB8D92D72F16C815C49A7A32,
+	PrimaryAssetContract_set_opensea_version_mA88FB02D8DC91A36D18256FD19EDCDF7DAEDC801,
+	PrimaryAssetContract_get_owner_m3082B1EFDCBA24F945904D83502CAF0FE47931D9,
+	PrimaryAssetContract_set_owner_m2770B662B09E3644090F4F8429205093CA081841,
+	PrimaryAssetContract_get_schema_name_m7FC81401521766C89646488E7657D2378ABC3E16,
+	PrimaryAssetContract_set_schema_name_mEFBA8AAA3514879F5952871F2EED32D176DABA02,
+	PrimaryAssetContract_get_symbol_m5DF25C5B60C31BE06E8C59C6DBD23C0AC294858D,
+	PrimaryAssetContract_set_symbol_m8829C2DF7D7696D55AD5B87DD5733158B03943D8,
+	PrimaryAssetContract_get_total_supply_m0E541FD75A4712B415FDD2AB08005372956E90D3,
+	PrimaryAssetContract_set_total_supply_m80A37BBB8804E57096E42F35414D0D8C948C64FC,
+	PrimaryAssetContract_get_description_mC8D4C1D7C9070230E556799F7A6E6B86F7B97DE4,
+	PrimaryAssetContract_set_description_m39F3D6DDA09DBDCB328AC945BC801F3C6C7455B0,
+	PrimaryAssetContract_get_external_link_m0E764CCF048AEE4F6E72EA24B6A90BF16E3EC35A,
+	PrimaryAssetContract_set_external_link_m88D4F88C3CC388FC9CEC53D7B9281BDD154DD815,
+	PrimaryAssetContract_get_image_url_m13865339AAE640187D8837994E790AE44E28E33C,
+	PrimaryAssetContract_set_image_url_m0C1B093212D31D3785ADE7C53C0D37648F8A0B28,
+	PrimaryAssetContract_get_default_to_fiat_m66FC808A2722B9480666B7100CA887D75A5F74AD,
+	PrimaryAssetContract_set_default_to_fiat_m6798F2C39122412DCFD6A335B58C93FC0D5DF3EC,
+	PrimaryAssetContract_get_dev_buyer_fee_basis_points_m62A41591074CD9A6E20A811C65DCBF48ED074A33,
+	PrimaryAssetContract_set_dev_buyer_fee_basis_points_m05E57620DD583019A5EFC1575883AE26CE95B80D,
+	PrimaryAssetContract_get_dev_seller_fee_basis_points_m940F0128D98D2237C010E5FC5BD1AC15B5BF6C57,
+	PrimaryAssetContract_set_dev_seller_fee_basis_points_m7C5209C96A3948B125CD9813432CB699C409B58C,
+	PrimaryAssetContract_get_only_proxied_transfers_m8D49C882BED9C53A598E2863E0B85BECFAAC297F,
+	PrimaryAssetContract_set_only_proxied_transfers_m820D30586DC578662CF9658215E0F132732A8E46,
+	PrimaryAssetContract_get_opensea_buyer_fee_basis_points_m7296BEC014A12E848BC4AC5E26091B7232F78249,
+	PrimaryAssetContract_set_opensea_buyer_fee_basis_points_m130E56BEBD2716234CCBE7605830D5830F2672D7,
+	PrimaryAssetContract_get_opensea_seller_fee_basis_points_mF2E433971DB5BFB434CD132172A547AA2C46F448,
+	PrimaryAssetContract_set_opensea_seller_fee_basis_points_m013A02EA46F5878824308F5A558247BD2C7182B5,
+	PrimaryAssetContract_get_buyer_fee_basis_points_m2C2309D70923219A7D4641CA5C58E78AF8114F0D,
+	PrimaryAssetContract_set_buyer_fee_basis_points_m69841B929CDC658BF954FBC4DA0C5B30B02C9CC0,
+	PrimaryAssetContract_get_seller_fee_basis_points_m5861F587E1C95F775ABB8E14EB96FC597573A693,
+	PrimaryAssetContract_set_seller_fee_basis_points_m33AD00BDAEDEC42A1AF1389AD5C8D97DFCF06836,
+	PrimaryAssetContract_get_payout_address_m1F74EB5CE5AFB4F879B54D10FBD142EF00A6E8B1,
+	PrimaryAssetContract_set_payout_address_m87DA0A0AF9047FF885541066F36F1166FE9890D1,
+	PrimaryAssetContract__ctor_mFD422EF17FB64717FEDDB7313902AA6DA637424E,
+	Traits__ctor_m4C3926F6A14B00538A84704B2FEA6740F46273B7,
+	Stats_get_one_day_volume_m538C5D5AB584FB57D814121C628A82DF33D3400B,
+	Stats_set_one_day_volume_m7AC1F1D4E57FBC82EEE3E3001E43BF28248D58D4,
+	Stats_get_one_day_change_m6D34DE33C94800CB2E205F16809BDCD648F80731,
+	Stats_set_one_day_change_m332CFCD9474AB4E7DA300B77E2A4267D553B349C,
+	Stats_get_one_day_sales_m9AEA6C09AD05DFDDF0422F64180764BB23469257,
+	Stats_set_one_day_sales_m6F47CEAB7A406EBB10044D6504641B5BE154DD64,
+	Stats_get_one_day_average_price_m45D590AB6E01C60CC4D8DC9C7FA6F23C43BE8509,
+	Stats_set_one_day_average_price_m47FE0342A3D9923F1F228C3F38C07D8DFC731A5B,
+	Stats_get_seven_day_volume_m78E53F85E3F7FB186C52CDDC5106E01C26A00964,
+	Stats_set_seven_day_volume_m0649654D5F50211464220ECD8FFBB41D69E2DB19,
+	Stats_get_seven_day_change_m15CAE0FC2175B2875B7ECC5574F74259452274AA,
+	Stats_set_seven_day_change_m1235FD22A5C553F4FA4AD6C29770292A152707D6,
+	Stats_get_seven_day_sales_mA5F3E1F746041205E0CFED78013AD89B105DB410,
+	Stats_set_seven_day_sales_m4047E6A3819659959125666653B4135F10F82600,
+	Stats_get_seven_day_average_price_mCD01DEA632E848F7CB42406D8FB3ADC57C2BFADB,
+	Stats_set_seven_day_average_price_m14500E2505A72DD1A04C951B3DCF9278771F9572,
+	Stats_get_thirty_day_volume_mB7C9F73026995D6D16F6105CDF337C1E14BDE6D0,
+	Stats_set_thirty_day_volume_m04C70E157BC07046F64B947D2F67A4A391E9EE9B,
+	Stats_get_thirty_day_change_m0E06A870D50051937CCBB998F43D89159407BA59,
+	Stats_set_thirty_day_change_mB7CA93C0C45616011C79BA93E43C286137A13339,
+	Stats_get_thirty_day_sales_m33E0E07437F31082F6DD3B93930FBCC1ADEB47CA,
+	Stats_set_thirty_day_sales_mF64295E0835E385F9A3A9FFEA3DFC571027FDAC9,
+	Stats_get_thirty_day_average_price_mF9C0CD1B5412893042E9917CDC51F9E6966DF74E,
+	Stats_set_thirty_day_average_price_m178EDEB1D78BE14F31915BB6C5F85133E543A993,
+	Stats_get_total_volume_mAC48CCD84A2289AB56CC2471C386D6796DAC17BC,
+	Stats_set_total_volume_mE02CF8E7CCC7030305A49B464D511BEFF44A8A71,
+	Stats_get_total_sales_m86A22708B9519FA1055AFF3BDEBFC1E3ADE51BFE,
+	Stats_set_total_sales_mA64639784BB90EC33F7FEA6BC0DAD4282F6DE733,
+	Stats_get_total_supply_m1E85A63A5C9B171D5C089E290E671948D3285198,
+	Stats_set_total_supply_m24BF91EB3ADF8113E51C89FC11AF3BBBC311E41A,
+	Stats_get_count_mCD6399EBB3C3B00657441A047D290A20511E769A,
+	Stats_set_count_m5C44CB748163845FC7B00A04B877F74CBF1E0CB0,
+	Stats_get_num_owners_mA2F876116F48A67B37F6650DBEA01638C2C4F85A,
+	Stats_set_num_owners_m772E74AAA5D811F7FAF1ECD08666148BCB3527AA,
+	Stats_get_average_price_mB2D69E0A8A4613B710C4272DE20008F492216C64,
+	Stats_set_average_price_mA978D005107F198C28D82B51631B964206A78830,
+	Stats_get_num_reports_mF7AD6C205E0392EC72021983C91ECEBD9575921D,
+	Stats_set_num_reports_m3BEA4DCA2245FBBC601BC941F6ECBFAA374EFC1F,
+	Stats_get_market_cap_m9CEC4014A88909E89E1F6E350DDF34DACF5FED3A,
+	Stats_set_market_cap_m07DB8730F512FD5113734DCF2C8C65D8C61B613E,
+	Stats_get_floor_price_m5C9CC7D2ED03DF6E766520B75E5ABDF34FD90F6A,
+	Stats_set_floor_price_m856FA5A2F60290F388BA9C6E3F9C5B4688CCC579,
+	Stats__ctor_m86D57BC6FFBC17545B914A808C1C0C5B12E0CD0A,
+	DisplayData_get_card_display_style_m3F4C0F99532531019310AA61570D9599DEAAE4A0,
+	DisplayData_set_card_display_style_m1498FC5A491AC477740DE97F573C0EEB571EC621,
+	DisplayData_get_images_m0D62C39636A4C8948781EB257439F56581680B24,
+	DisplayData_set_images_m116369450D80AEC52C575B40854B24F6080244F8,
+	DisplayData__ctor_mBE5EA37A8F53813EF00E75B386EE69DDA8025CB0,
+	OpenSeaCollectionsRoot_get_primary_asset_contracts_mD87F6C752D455383A921C551D227DE749B509818,
+	OpenSeaCollectionsRoot_set_primary_asset_contracts_m99ECF18714C1ED9FB777FFDE1FE3D2F214B0ACC1,
+	OpenSeaCollectionsRoot_get_traits_mAE0D0A4AB9320052366A66A85094BE087107AB68,
+	OpenSeaCollectionsRoot_set_traits_m0CE4DAB6C07788DADAB5F4E84F27B1F410CDB3B0,
+	OpenSeaCollectionsRoot_get_stats_m0CDF9784A96EAF87527B07E1A389AFE4FFE3117A,
+	OpenSeaCollectionsRoot_set_stats_m4BC97BB3087A9545C92B3ABDCF44373678931D16,
+	OpenSeaCollectionsRoot_get_banner_image_url_mDDB896F35DB3FCF1390366236730D13C5B469E52,
+	OpenSeaCollectionsRoot_set_banner_image_url_mA7216C6E2E5B38971645DEB400BB987A51D77A68,
+	OpenSeaCollectionsRoot_get_chat_url_m3EE0986EE994461C0045780507859E6382219FD4,
+	OpenSeaCollectionsRoot_set_chat_url_m895797100B9B2E4987785C898B96C1135DB4FE97,
+	OpenSeaCollectionsRoot_get_created_date_mDC350C42070F8E0EB8075300E03515FEBA6AC508,
+	OpenSeaCollectionsRoot_set_created_date_m0C6A099B91579CBDAFF0D00A93960352105D3DF4,
+	OpenSeaCollectionsRoot_get_default_to_fiat_m00EE1749E3E263EB1E0006021511F44DEC591383,
+	OpenSeaCollectionsRoot_set_default_to_fiat_mDD271741A666E681EAD130EFAF28552F1F208E10,
+	OpenSeaCollectionsRoot_get_description_m77C22A39F6017ADD226B7B29A261139AFD92EF23,
+	OpenSeaCollectionsRoot_set_description_mE9682C25AABBFF6099BB28DC1A731DE07525B0FC,
+	OpenSeaCollectionsRoot_get_dev_buyer_fee_basis_points_m6EE85C361C753D5348C4CBF0D10E0528F435EE13,
+	OpenSeaCollectionsRoot_set_dev_buyer_fee_basis_points_m11D1FF182E5C94725EF5D53BC69FF48361D9E8B5,
+	OpenSeaCollectionsRoot_get_dev_seller_fee_basis_points_m8F03A0F4066D5D03CF9C69630EFB3AAF66790B6F,
+	OpenSeaCollectionsRoot_set_dev_seller_fee_basis_points_mA1632BF96E4F5967916F155836DC56238CD2F853,
+	OpenSeaCollectionsRoot_get_discord_url_m210417118ECA04522E13BF3D36B3EA191B375E05,
+	OpenSeaCollectionsRoot_set_discord_url_m5F53C6675F68EDA57DE99FCB441A48267590EA37,
+	OpenSeaCollectionsRoot_get_display_data_mC030DB85AE860B3F8A802D516D7803488640F64F,
+	OpenSeaCollectionsRoot_set_display_data_mD98DA1EFEFEA55094BD05BEC0DF01DF29589EA2D,
+	OpenSeaCollectionsRoot_get_external_url_mDBCED7C2F97B4469CF1895A914BF0BC38EA46447,
+	OpenSeaCollectionsRoot_set_external_url_m36CE5C89603AB871BEC9AAF124C4478E7BF071EB,
+	OpenSeaCollectionsRoot_get_featured_m88E58FA4CF149F19284CAA445B0BF96E19E1BC57,
+	OpenSeaCollectionsRoot_set_featured_m2D710DC7B26EF8A459D9DFFEFAB4055578C90FBE,
+	OpenSeaCollectionsRoot_get_featured_image_url_m2C9044C79A4C6E84E48CB02EFF5EA1EBB30F56F3,
+	OpenSeaCollectionsRoot_set_featured_image_url_m44419070678C0595C997CD8BB4AA0487C8E99E87,
+	OpenSeaCollectionsRoot_get_hidden_m9F8FDEDC5487335AA5FA1F13648A1C1AA6F91C14,
+	OpenSeaCollectionsRoot_set_hidden_mC21E584A6504D2BC8723EA85B5382290C742D7BE,
+	OpenSeaCollectionsRoot_get_safelist_request_status_m43CE43A656B418174C7DDF5681F29C0C61494A1C,
+	OpenSeaCollectionsRoot_set_safelist_request_status_m3826C855E3D6A793AAA9546182863581F4BBA95D,
+	OpenSeaCollectionsRoot_get_image_url_m9BB0BBD682A263644720FAE5E7E9BC436B23B645,
+	OpenSeaCollectionsRoot_set_image_url_mA73C02940B7AAF9A4DCDACC8F5297FC5E442085D,
+	OpenSeaCollectionsRoot_get_is_subject_to_whitelist_mE5BA75F124CF5913A1C3FE885B4F9865DA6F82EE,
+	OpenSeaCollectionsRoot_set_is_subject_to_whitelist_mA68CD333CB4DFE705C374C280941FC0AF562F8CF,
+	OpenSeaCollectionsRoot_get_large_image_url_m1FDF3BCACBD4F049BD5A2C87CEC9B49F5067C5BA,
+	OpenSeaCollectionsRoot_set_large_image_url_mE685FB249B9B6AF3D7E91F01A7AF6369EBB200AB,
+	OpenSeaCollectionsRoot_get_medium_username_mE6D36BFCBA5C279049DF18CB0BC9541AF5E98376,
+	OpenSeaCollectionsRoot_set_medium_username_mA26870231AC1B81DD9B3507A7333CC0A3079010F,
+	OpenSeaCollectionsRoot_get_name_mA950CBD68D8190CE4C87B37CB456D41815487C51,
+	OpenSeaCollectionsRoot_set_name_mEB87AA4AFA3BE461C0A94677926D6DDBF2D77B1A,
+	OpenSeaCollectionsRoot_get_only_proxied_transfers_m5BD0A250E1ACB4C3823B535549B8085A0F1B3E1C,
+	OpenSeaCollectionsRoot_set_only_proxied_transfers_m002306E9D608F146BCE86315D202EDA06C8E7744,
+	OpenSeaCollectionsRoot_get_opensea_buyer_fee_basis_points_m41996BEE386D08875112214B523EC69BD6D3DEF0,
+	OpenSeaCollectionsRoot_set_opensea_buyer_fee_basis_points_m9EF5A71EF322A454E25A996F4F5BA69F1488463B,
+	OpenSeaCollectionsRoot_get_opensea_seller_fee_basis_points_m9670E987BBAFBBB9DA9A3D1790928A9275B59C78,
+	OpenSeaCollectionsRoot_set_opensea_seller_fee_basis_points_m556F7AD6DF0F7EB2177A70E7EB68C1897092579B,
+	OpenSeaCollectionsRoot_get_payout_address_m75D3CD4A258441FF31F41F8F79985D98B32F50DE,
+	OpenSeaCollectionsRoot_set_payout_address_mB4A792B658C570102B28E71EB406A16BB7BD54AD,
+	OpenSeaCollectionsRoot_get_require_email_m00423BD08069012D8B6ED40EEC438A01C5B822F0,
+	OpenSeaCollectionsRoot_set_require_email_m637790249EAB5F40C6679F4F34CB663E97AEF0F9,
+	OpenSeaCollectionsRoot_get_short_description_m8837FD2BB27D04FD21324C9C8A4F5055659B1DFB,
+	OpenSeaCollectionsRoot_set_short_description_m4CDC05DF39E4F4BAA3D31290CBF1FCEFC5BA54DF,
+	OpenSeaCollectionsRoot_get_slug_m8220018F37E8488CE775882B5A4C538FE02DECCD,
+	OpenSeaCollectionsRoot_set_slug_m55E826353EF07D8B9A13A7F69AD41E90A74919C9,
+	OpenSeaCollectionsRoot_get_telegram_url_mF7F62A932F997541268150E37F2BA00B4089A126,
+	OpenSeaCollectionsRoot_set_telegram_url_mE0BBEAB6BE09386592B5C16CEDD6C092E71D0A3F,
+	OpenSeaCollectionsRoot_get_twitter_username_m8F9D1AFBF9132856C823337BD0A93564324F1D1F,
+	OpenSeaCollectionsRoot_set_twitter_username_m97BA59F5AEF142B5A2CF93B4E68EB8BC3ABB3C30,
+	OpenSeaCollectionsRoot_get_instagram_username_m62576E7AC888B63DB803648413BCF8E25474EDEF,
+	OpenSeaCollectionsRoot_set_instagram_username_m1CE2D0CD59CEDDA6ABE65EB183EA88035AB264C0,
+	OpenSeaCollectionsRoot_get_wiki_url_mA7E521C13B296DCB5949F4517F5D786A3D21D39D,
+	OpenSeaCollectionsRoot_set_wiki_url_mC0FC793E99148FC7DABE6F9EF1A1380CC7C1427C,
+	OpenSeaCollectionsRoot_get_is_nsfw_mA579AF5336511E0BB787185D91DF24D14332670A,
+	OpenSeaCollectionsRoot_set_is_nsfw_m28E8429E872225FFFCC66555AF4B0219D5201726,
+	OpenSeaCollectionsRoot_get_owned_asset_count_m5C06D961E07969620D81D085A94D571E0E282447,
+	OpenSeaCollectionsRoot_set_owned_asset_count_m15C076893266651A29033EF7817B544F4E20F7D0,
+	OpenSeaCollectionsRoot__ctor_m2C97E004C5FB933362815FD8F895078C3B923EAB,
 	NPCController_OnTriggerEnter2D_mCCC191509FF7585F0B0FC5D58C75404DBFE9C1D9,
 	NPCController_OnTriggerExit2D_m23C5BC781E47B4D0982F372A781E3C4079535B59,
 	NPCController__ctor_mA7F58AC0C72103FE8578AD810E506AB67EB8455E,
@@ -986,6 +1525,28 @@ static Il2CppMethodPointer s_methodPointers[336] =
 	PlayerController_FixedUpdate_m54EE3ADAA7597303B1F69849B233D1A68D880B14,
 	PlayerController_Move_Keyboard_m105B3AC1E6449FD5C5A7F1D764CA8594499A7C5E,
 	PlayerController__ctor_mF30385729DAFDFCB895C4939F6051DCE6C0327FB,
+	OpenSeaStatusText_StartTest_mE3469EB7F3B3A688DDF7144BA43243299A7FFF57,
+	OpenSeaStatusText_StatusTrue_m4AA6C192A86C0558FA9172EBD5A9A1FAD12CB9DC,
+	OpenSeaStatusText_StatusFalse_m446F34A97D378C4E1B79E550EF36261FE668F8FC,
+	OpenSeaStatusText__ctor_m0B76D19B779F2F92E2AA1B13EF1EBC0EB361C38B,
+	ConnectButton_WalletAddress_mBB530BC6D12147B765F05FB5A26245450064B81B,
+	ConnectButton_Start_m13B99EB1096DFE9A76EB05F225A5BF797E151ADE,
+	ConnectButton_OnClick_mB10DF3E163D314F0A63E0038CFDC99EEB04BF659,
+	ConnectButton__ctor_mF58EF8D80BBB0AE8E27850ADE957F54BBB0F32F3,
+	MetaMaskConnectWalletButton_WalletAddress_mAA2419236CE23D1062D8DD2FF27D6F7CC54F8596,
+	MetaMaskConnectWalletButton_Start_mED5EAA6DA517F3E160A5D7DD1EEA41FA7795B7CE,
+	MetaMaskConnectWalletButton_OnClick_m3A9EE46D4C16C4AD63432B40C5E6C25432A1EF49,
+	MetaMaskConnectWalletButton__ctor_mB2067E978635A331963413B1026943953DF33228,
+	MetaMaskManager_get_instance_m7066C9BCB66575BACE18CC9BF5E1ED6A34467A6D,
+	MetaMaskManager_Awake_m84569576863F94D4EC1F36B57CD22A0ECFB11A57,
+	MetaMaskManager_initApp_m21A9C0BD6CCE23BA099D676809E5564A2731EE43,
+	MetaMaskManager_GetWalletAddres_mAFD82F1351EFF0C6FFE2EA1389B30A9862E059DC,
+	MetaMaskManager_SetWalletAddress_m80064DE7A39407C8E463716BAC994F47629D3CFE,
+	MetaMaskManager_HasUMGNFT_m9127000A33AA309317672EE13F427751277E841D,
+	MetaMaskManager__ctor_m02F63FECC50CDF26C66BF847CAAD2F6027446AFD,
+	OpenSea_HasUMGCollection_mE493772A414F719CAA346FEA7F0A2348C9B3A075,
+	OpenSea_SearchCollection_m0ED65A64FBF044CE3CC113C690892F193F2000D6,
+	OpenSea__ctor_mE6AE8107BDDE7B6E9D1B9DA85801672284AF3DFE,
 	Dialogue_Manager_Tiny_Start_mE48EE7E2B9CD37D740672634D872D4869E12C21B,
 	Dialogue_Manager_Tiny_StartDialogue_mA868A1C7C0BEB514F204F8E4D1562352AFDDBBCB,
 	Dialogue_Manager_Tiny_DisplayNextSentence_m092A2D582AB1D34E7B6E8B074F6101DFAA3A8ADC,
@@ -1020,344 +1581,531 @@ static Il2CppMethodPointer s_methodPointers[336] =
 	UIGradient_BlendColor_m9960176FD00D4198FFB816D927B360684BC71F14,
 	UIGradient__ctor_m3D49905D25166B3BDA6F118D1E69FA43DA6E06A5,
 };
-static const int32_t s_InvokerIndices[336] = 
+static const int32_t s_InvokerIndices[523] = 
 {
 	-1,
 	-1,
 	-1,
-	2293,
-	2293,
-	2293,
-	2293,
-	2230,
-	2293,
-	1882,
-	2293,
-	2258,
-	2230,
-	2293,
-	2230,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	1882,
-	1896,
-	1444,
-	2293,
-	1882,
-	2293,
-	2258,
-	2230,
-	2293,
-	2230,
-	1882,
-	2293,
-	1922,
-	1929,
-	1882,
-	1440,
-	1882,
-	1929,
-	1896,
-	2293,
-	1882,
-	2293,
-	2258,
-	2230,
-	2293,
-	2230,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2230,
-	2293,
-	2293,
-	2293,
-	2230,
-	2230,
-	2293,
-	2293,
-	2293,
-	2258,
-	1882,
-	2293,
-	2258,
-	2230,
-	2293,
-	2230,
-	1882,
-	2293,
-	2258,
-	2230,
-	2293,
-	2230,
-	1882,
-	2293,
-	2258,
-	2230,
-	2293,
-	2230,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	1444,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2230,
-	2293,
-	1882,
-	2293,
-	2258,
-	2230,
-	2293,
-	2230,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	3583,
-	3622,
-	2293,
-	3647,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	1896,
-	1780,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	1896,
-	2293,
-	1444,
-	2293,
-	2230,
-	2293,
-	1882,
-	2293,
-	2258,
-	2230,
-	2293,
-	2230,
-	1882,
-	2293,
-	2258,
-	2230,
-	2293,
-	2230,
-	2293,
-	2293,
-	2293,
-	1896,
-	2293,
-	1444,
-	2293,
-	2230,
-	2293,
-	2293,
-	1882,
-	2293,
-	2258,
-	2230,
-	2293,
-	2230,
-	1882,
-	2293,
-	2258,
-	2230,
-	2293,
-	2230,
-	2293,
-	2293,
-	2293,
-	2293,
-	1882,
-	1882,
-	1922,
-	1922,
-	2293,
-	2293,
-	2265,
-	2265,
-	2286,
-	2265,
-	1929,
-	2265,
-	1929,
-	2215,
-	1882,
-	2258,
-	1922,
-	2258,
-	1922,
-	2293,
-	1896,
-	1896,
-	489,
-	2293,
-	899,
-	1896,
-	1773,
-	2293,
-	2265,
-	1929,
-	2293,
-	1896,
-	1896,
-	489,
-	2293,
-	2293,
-	2293,
-	1896,
-	1896,
-	2293,
-	2265,
-	1929,
-	1882,
-	2293,
-	1896,
-	1896,
-	489,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	1896,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	1896,
-	1896,
-	2293,
-	2293,
-	1882,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	2293,
-	1896,
-	2293,
-	1444,
-	2293,
-	2230,
-	2293,
-	2293,
-	1882,
-	2293,
-	2258,
-	2230,
-	2293,
-	2230,
-	1882,
-	2293,
-	2258,
-	2230,
-	2293,
-	2230,
-	2293,
-	2293,
-	2215,
-	1882,
-	2230,
-	1896,
-	2215,
-	1882,
-	2265,
-	1929,
-	1896,
-	733,
-	2293,
+	2615,
+	2615,
+	2615,
+	2615,
+	2551,
+	2615,
+	2146,
+	2615,
+	2579,
+	2551,
+	2615,
+	2551,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2146,
+	2160,
+	1669,
+	2615,
+	2146,
+	2615,
+	2579,
+	2551,
+	2615,
+	2551,
+	2146,
+	2615,
+	2187,
+	2194,
+	2146,
+	1665,
+	2146,
+	2194,
+	2160,
+	2615,
+	2146,
+	2615,
+	2579,
+	2551,
+	2615,
+	2551,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2551,
+	2615,
+	2615,
+	2615,
+	2551,
+	2551,
+	2615,
+	2615,
+	2615,
+	2579,
+	2146,
+	2615,
+	2579,
+	2551,
+	2615,
+	2551,
+	2146,
+	2615,
+	2579,
+	2551,
+	2615,
+	2551,
+	2146,
+	2615,
+	2579,
+	2551,
+	2615,
+	2551,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	1669,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2551,
+	2615,
+	2146,
+	2615,
+	2579,
+	2551,
+	2615,
+	2551,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	3999,
+	4048,
+	2615,
+	4073,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2160,
+	2027,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2160,
+	2615,
+	1669,
+	2615,
+	2551,
+	2615,
+	2146,
+	2615,
+	2579,
+	2551,
+	2615,
+	2551,
+	2146,
+	2615,
+	2579,
+	2551,
+	2615,
+	2551,
+	2615,
+	2615,
+	2615,
+	2160,
+	2615,
+	1669,
+	2615,
+	2551,
+	2615,
+	2615,
+	2146,
+	2615,
+	2579,
+	2551,
+	2615,
+	2551,
+	2146,
+	2615,
+	2579,
+	2551,
+	2615,
+	2551,
+	2615,
+	2615,
+	2615,
+	2615,
+	2146,
+	2146,
+	2187,
+	2187,
+	2615,
+	2615,
+	2586,
+	2586,
+	2608,
+	2586,
+	2194,
+	2586,
+	2194,
+	2536,
+	2146,
+	2579,
+	2187,
+	2579,
+	2187,
+	2615,
+	2160,
+	2160,
+	591,
+	2615,
+	1045,
+	2160,
+	2020,
+	2615,
+	2586,
+	2194,
+	2615,
+	2160,
+	2160,
+	591,
+	2615,
+	2615,
+	2615,
+	2160,
+	2160,
+	2615,
+	2586,
+	2194,
+	2146,
+	2615,
+	2160,
+	2160,
+	591,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2160,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2551,
+	2160,
+	2551,
+	2160,
+	2512,
+	2119,
+	2551,
+	2160,
+	2551,
+	2160,
+	2551,
+	2160,
+	2536,
+	2146,
+	2551,
+	2160,
+	2551,
+	2160,
+	2551,
+	2160,
+	2551,
+	2160,
+	2551,
+	2160,
+	2551,
+	2160,
+	2579,
+	2187,
+	2536,
+	2146,
+	2536,
+	2146,
+	2579,
+	2187,
+	2536,
+	2146,
+	2536,
+	2146,
+	2536,
+	2146,
+	2536,
+	2146,
+	2551,
+	2160,
+	2615,
+	2615,
+	2536,
+	2146,
+	2536,
+	2146,
+	2536,
+	2146,
+	2536,
+	2146,
+	2536,
+	2146,
+	2536,
+	2146,
+	2536,
+	2146,
+	2536,
+	2146,
+	2536,
+	2146,
+	2536,
+	2146,
+	2536,
+	2146,
+	2536,
+	2146,
+	2536,
+	2146,
+	2536,
+	2146,
+	2536,
+	2146,
+	2536,
+	2146,
+	2536,
+	2146,
+	2536,
+	2146,
+	2536,
+	2146,
+	2536,
+	2146,
+	2536,
+	2146,
+	2615,
+	2551,
+	2160,
+	2551,
+	2160,
+	2615,
+	2551,
+	2160,
+	2551,
+	2160,
+	2551,
+	2160,
+	2551,
+	2160,
+	2551,
+	2160,
+	2512,
+	2119,
+	2579,
+	2187,
+	2551,
+	2160,
+	2551,
+	2160,
+	2551,
+	2160,
+	2551,
+	2160,
+	2551,
+	2160,
+	2551,
+	2160,
+	2579,
+	2187,
+	2551,
+	2160,
+	2579,
+	2187,
+	2551,
+	2160,
+	2551,
+	2160,
+	2579,
+	2187,
+	2551,
+	2160,
+	2551,
+	2160,
+	2551,
+	2160,
+	2579,
+	2187,
+	2551,
+	2160,
+	2551,
+	2160,
+	2551,
+	2160,
+	2579,
+	2187,
+	2551,
+	2160,
+	2551,
+	2160,
+	2551,
+	2160,
+	2551,
+	2160,
+	2551,
+	2160,
+	2551,
+	2160,
+	2579,
+	2187,
+	2536,
+	2146,
+	2615,
+	2160,
+	2160,
+	2615,
+	2615,
+	2146,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	2615,
+	4048,
+	2615,
+	2615,
+	2615,
+	4048,
+	2615,
+	2615,
+	2615,
+	4048,
+	2615,
+	2615,
+	2551,
+	2160,
+	2579,
+	2615,
+	1872,
+	1872,
+	2615,
+	2615,
+	2160,
+	2615,
+	1669,
+	2615,
+	2551,
+	2615,
+	2615,
+	2146,
+	2615,
+	2579,
+	2551,
+	2615,
+	2551,
+	2146,
+	2615,
+	2579,
+	2551,
+	2615,
+	2551,
+	2615,
+	2615,
+	2536,
+	2146,
+	2551,
+	2160,
+	2536,
+	2146,
+	2586,
+	2194,
+	2160,
+	866,
+	2615,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[1] = 
 {
@@ -1365,18 +2113,18 @@ static const Il2CppTokenRangePair s_rgctxIndices[1] =
 };
 static const Il2CppRGCTXDefinition s_rgctxValues[5] = 
 {
-	{ (Il2CppRGCTXDataType)2, 2383 },
-	{ (Il2CppRGCTXDataType)2, 364 },
-	{ (Il2CppRGCTXDataType)3, 15114 },
-	{ (Il2CppRGCTXDataType)1, 364 },
-	{ (Il2CppRGCTXDataType)3, 14904 },
+	{ (Il2CppRGCTXDataType)2, 2758 },
+	{ (Il2CppRGCTXDataType)2, 395 },
+	{ (Il2CppRGCTXDataType)3, 17497 },
+	{ (Il2CppRGCTXDataType)1, 395 },
+	{ (Il2CppRGCTXDataType)3, 17274 },
 };
 extern const CustomAttributesCacheGenerator g_AssemblyU2DCSharp_AttributeGenerators[];
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	336,
+	523,
 	s_methodPointers,
 	0,
 	NULL,
