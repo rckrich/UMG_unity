@@ -1,3 +1,4 @@
+-a="/Users/josejavierserranosolis/Documents/GitHub/UMG_unity/UMG_WebGL/Library/PlayerScriptAssemblies/Assembly-CSharp-firstpass.dll"
 -a="/Users/josejavierserranosolis/Documents/GitHub/UMG_unity/UMG_WebGL/Library/PlayerScriptAssemblies/Assembly-CSharp.dll"
 -a="/Users/josejavierserranosolis/Documents/GitHub/UMG_unity/UMG_WebGL/Library/PlayerScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll"
 -a="/Users/josejavierserranosolis/Documents/GitHub/UMG_unity/UMG_WebGL/Library/PlayerScriptAssemblies/Unity.2D.PixelPerfect.dll"
@@ -20,6 +21,7 @@
 -a="/Users/josejavierserranosolis/Documents/GitHub/UMG_unity/UMG_WebGL/Assets/Plugins/RestSharp.dll"
 -a="/Users/josejavierserranosolis/Documents/GitHub/UMG_unity/UMG_WebGL/Assets/Plugins/Newtonsoft.Json.dll"
 -a="/Users/josejavierserranosolis/Documents/GitHub/UMG_unity/UMG_WebGL/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+-a="/Users/josejavierserranosolis/Documents/GitHub/UMG_unity/UMG_WebGL/Assets/Plugins/BouncyCastle.Crypto.dll"
 -s="/Applications/Unity/Hub/Editor/2020.3.25f1/Unity.app/Contents/Managed/UnityEngine"
 -s="/Applications/Unity/Hub/Editor/2020.3.25f1/PlaybackEngines/WebGLSupport/Managed"
 -s="/Users/josejavierserranosolis/Documents/GitHub/UMG_unity/UMG_WebGL/Library/PlayerScriptAssemblies"

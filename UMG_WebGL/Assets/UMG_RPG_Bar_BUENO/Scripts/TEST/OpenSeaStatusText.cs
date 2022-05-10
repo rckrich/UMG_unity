@@ -20,8 +20,8 @@ public class OpenSeaStatusText : MonoBehaviour
 
     public void StartTest()
     {
-        //StartCoroutine(CR_TEST());
-        TEST();
+        StartCoroutine(CR_TEST());
+        //TEST();
     }
 
     public void FetchTest()

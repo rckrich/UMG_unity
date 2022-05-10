@@ -21,8 +21,14 @@ public class MetaMaskManager : MonoBehaviour
     }
 
     public static MetaMaskManager dontDestroyMetaMaskM;
-    [DllImport("__Internal")] private static extern string ConnectToMetamask();
-    [DllImport("__Internal")] private static extern string Test();
+    [DllImport("__Internal")]
+    private static extern void Web3Connect();
+
+    [DllImport("__Internal")]
+    private static extern string ConnectAccount();
+
+    [DllImport("__Internal")]
+    private static extern void SetConnectAccount(string value);
 
     void Awake()
     {
@@ -39,6 +45,8 @@ public class MetaMaskManager : MonoBehaviour
     }
 
     private string walletAddress;
+    private int expirationTime;
+    private string account;
     private OpenSea os;
 
     private void initApp() {
@@ -56,25 +64,44 @@ public class MetaMaskManager : MonoBehaviour
         walletAddress = _walletAddres;
     }
 
-    public void ConnectMetamaskjscript() {
-        ConnectToMetamask();
-    }
-
     public void FetchCollection() {
         os.RunFetchjscript();
     }
-
-    public void ButtonTest() {
-        Test();
-    }
-
 
     public bool HasUMGNFT() {
         if (walletAddress.Equals("")){
             return false;
         }
         else {
-            return os.HasUMGCollectionjscript();
+            return os.HasUMGCollection(walletAddress);
         }
+    }
+
+    public void OnLogin()
+    {
+        Web3Connect();
+        OnConnected();
+    }
+
+    async private void OnConnected()
+    {
+        account = ConnectAccount();
+        while (account == "")
+        {
+            await new WaitForSeconds(1f);
+            account = ConnectAccount();
+        };
+        // save account for next scene
+        PlayerPrefs.SetString("Account", account);
+        // set account in manager
+        SetWalletAddress(account);
+        // reset login message
+        SetConnectAccount("");
+    }
+
+    public void OnSkip()
+    {
+        // burner account for skipped sign in screen
+        PlayerPrefs.SetString("Account", "");
     }
 }

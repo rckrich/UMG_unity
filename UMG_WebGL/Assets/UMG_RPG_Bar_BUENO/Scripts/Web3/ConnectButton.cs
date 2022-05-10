@@ -23,6 +23,5 @@ public class ConnectButton : MonoBehaviour
         //string walletAddres = WalletAddress();
         //MetaMaskManager.instance.SetWalletAddress(walletAddres);
         //ButtonText.text = walletAddres;
-        MetaMaskManager.instance.ConnectMetamaskjscript();
     }
 }
