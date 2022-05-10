@@ -5,7 +5,6 @@ ScriptsOnlyBuild:
     - AreaTransitions
     - Audio_Manager
     - CameraController
-    - ConnectButton
     - DialogueManager
     - DialogueTrigger
     - Dialogue_Manager
@@ -25,8 +24,11 @@ ScriptsOnlyBuild:
     - UnityEditor.U2D.Animation.BoneGizmo
     Unity.2D.IK.Editor.dll:
     - UnityEditor.U2D.IK.IKEditorManager
+    - UnityEditor.U2D.IK.IKGizmos
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
+    - UnityEditor.Tilemaps.GridPaletteBrushes
+    - UnityEditor.Tilemaps.GridPalettes
     - UnityEditor.Tilemaps.SceneViewGridManager
     - UnityEditor.Tilemaps.SceneViewOpenTilePaletteHelper
     - UnityEditor.Tilemaps.TileDragAndDropManager
@@ -369,8 +371,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 6826}
     - Class: 114
       Script: {instanceID: 7778}
-    - Class: 114
-      Script: {instanceID: 7878}
     - Class: 114
       Script: {instanceID: 8014}
     - Class: 115
@@ -1667,4 +1667,4 @@ ScriptsOnlyBuild:
   - Assets/UMG_RPG_Bar_BUENO/UMG_RPG_Bar_Start.unity
   - Assets/UMG_RPG_Bar_BUENO/UMG_RPG_Bar.unity
   - Assets/General_UnityPackage/01_Scenes/LoadingTransition.unity
-  playerPath: /Users/josejavierserranosolis/Desktop/Build
+  playerPath: /Users/josejavierserranosolis/Desktop/BuildWeb3

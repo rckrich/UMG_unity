@@ -948,121 +948,143 @@ extern void PlayerController_Move_Keyboard_m105B3AC1E6449FD5C5A7F1D764CA8594499A
 extern void PlayerController__ctor_mF30385729DAFDFCB895C4939F6051DCE6C0327FB (void);
 // 0x000001D6 System.Void OpenSeaStatusText::StartTest()
 extern void OpenSeaStatusText_StartTest_mE3469EB7F3B3A688DDF7144BA43243299A7FFF57 (void);
-// 0x000001D7 System.Void OpenSeaStatusText::StatusTrue()
+// 0x000001D7 System.Void OpenSeaStatusText::FetchTest()
+extern void OpenSeaStatusText_FetchTest_m25997D1598959AEC490EA04EF3F150A0DC8C7719 (void);
+// 0x000001D8 System.Void OpenSeaStatusText::StatusTrue()
 extern void OpenSeaStatusText_StatusTrue_m4AA6C192A86C0558FA9172EBD5A9A1FAD12CB9DC (void);
-// 0x000001D8 System.Void OpenSeaStatusText::StatusFalse()
+// 0x000001D9 System.Void OpenSeaStatusText::StatusFalse()
 extern void OpenSeaStatusText_StatusFalse_m446F34A97D378C4E1B79E550EF36261FE668F8FC (void);
-// 0x000001D9 System.Collections.IEnumerator OpenSeaStatusText::CR_TEST()
+// 0x000001DA System.Void OpenSeaStatusText::TEST()
+extern void OpenSeaStatusText_TEST_m23B68FBF9FE9EB2ECA9269DB69C2775E9987EF8F (void);
+// 0x000001DB System.Collections.IEnumerator OpenSeaStatusText::CR_TEST()
 extern void OpenSeaStatusText_CR_TEST_m719FB552ADE79726FDB3B5AAD3E18F4DBF3D4C41 (void);
-// 0x000001DA System.Void OpenSeaStatusText::.ctor()
+// 0x000001DC System.Void OpenSeaStatusText::.ctor()
 extern void OpenSeaStatusText__ctor_m0B76D19B779F2F92E2AA1B13EF1EBC0EB361C38B (void);
-// 0x000001DB System.Void OpenSeaStatusText/<CR_TEST>d__8::.ctor(System.Int32)
-extern void U3CCR_TESTU3Ed__8__ctor_m0782382E35A906860215546E4FB33899503FD44B (void);
-// 0x000001DC System.Void OpenSeaStatusText/<CR_TEST>d__8::System.IDisposable.Dispose()
-extern void U3CCR_TESTU3Ed__8_System_IDisposable_Dispose_m20FCF708E9BC53A7B1CB2555AE6F90C8B918770E (void);
-// 0x000001DD System.Boolean OpenSeaStatusText/<CR_TEST>d__8::MoveNext()
-extern void U3CCR_TESTU3Ed__8_MoveNext_mF5613C72BC7203BDA484B47782C7705C09B4ED7B (void);
-// 0x000001DE System.Object OpenSeaStatusText/<CR_TEST>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
-extern void U3CCR_TESTU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m690BBDF9E64FE7C7F0318F9E87764E7E52E4D01D (void);
-// 0x000001DF System.Void OpenSeaStatusText/<CR_TEST>d__8::System.Collections.IEnumerator.Reset()
-extern void U3CCR_TESTU3Ed__8_System_Collections_IEnumerator_Reset_m5EC035728A352444C9780F43628D5BE2FF42F20B (void);
-// 0x000001E0 System.Object OpenSeaStatusText/<CR_TEST>d__8::System.Collections.IEnumerator.get_Current()
-extern void U3CCR_TESTU3Ed__8_System_Collections_IEnumerator_get_Current_m5D9313AE19C45E4212696BA892DBB44A3C8B2FAF (void);
-// 0x000001E1 System.String ConnectButton::WalletAddress()
+// 0x000001DD System.Void OpenSeaStatusText/<CR_TEST>d__10::.ctor(System.Int32)
+extern void U3CCR_TESTU3Ed__10__ctor_m9F682C072C1E57FE34D0E46B3F49854E1407E7D4 (void);
+// 0x000001DE System.Void OpenSeaStatusText/<CR_TEST>d__10::System.IDisposable.Dispose()
+extern void U3CCR_TESTU3Ed__10_System_IDisposable_Dispose_m3A81E7683F3E3DF27DFDF83E06374E92CCC6BCF8 (void);
+// 0x000001DF System.Boolean OpenSeaStatusText/<CR_TEST>d__10::MoveNext()
+extern void U3CCR_TESTU3Ed__10_MoveNext_m3BC6FBFA526F373C53EE0F7872C55765C9CCF8CF (void);
+// 0x000001E0 System.Object OpenSeaStatusText/<CR_TEST>d__10::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+extern void U3CCR_TESTU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m8A5BAFA956938FA53B0DFB13BA02AC860B213683 (void);
+// 0x000001E1 System.Void OpenSeaStatusText/<CR_TEST>d__10::System.Collections.IEnumerator.Reset()
+extern void U3CCR_TESTU3Ed__10_System_Collections_IEnumerator_Reset_m0E0B0C2E7AEFF8272EF7DC206729E5D0E66C4B0B (void);
+// 0x000001E2 System.Object OpenSeaStatusText/<CR_TEST>d__10::System.Collections.IEnumerator.get_Current()
+extern void U3CCR_TESTU3Ed__10_System_Collections_IEnumerator_get_Current_m3A9CD72371AD30DE409BEA3EA8CD3959A6850D2D (void);
+// 0x000001E3 System.String ConnectButton::WalletAddress()
 extern void ConnectButton_WalletAddress_mBB530BC6D12147B765F05FB5A26245450064B81B (void);
-// 0x000001E2 System.Void ConnectButton::Start()
+// 0x000001E4 System.Void ConnectButton::Start()
 extern void ConnectButton_Start_m13B99EB1096DFE9A76EB05F225A5BF797E151ADE (void);
-// 0x000001E3 System.Void ConnectButton::OnClick()
+// 0x000001E5 System.Void ConnectButton::OnClick()
 extern void ConnectButton_OnClick_mB10DF3E163D314F0A63E0038CFDC99EEB04BF659 (void);
-// 0x000001E4 System.Void ConnectButton::.ctor()
+// 0x000001E6 System.Void ConnectButton::.ctor()
 extern void ConnectButton__ctor_mF58EF8D80BBB0AE8E27850ADE957F54BBB0F32F3 (void);
-// 0x000001E5 MetaMaskManager MetaMaskManager::get_instance()
+// 0x000001E7 MetaMaskManager MetaMaskManager::get_instance()
 extern void MetaMaskManager_get_instance_m7066C9BCB66575BACE18CC9BF5E1ED6A34467A6D (void);
-// 0x000001E6 System.Void MetaMaskManager::Awake()
+// 0x000001E8 System.String MetaMaskManager::ConnectToMetamask()
+extern void MetaMaskManager_ConnectToMetamask_mCDC0EDDB6D0D53FADCD09CBA18851504264BF408 (void);
+// 0x000001E9 System.String MetaMaskManager::Test()
+extern void MetaMaskManager_Test_m80743DCC39E9DEF15304CFEE990D53F5D7207FB9 (void);
+// 0x000001EA System.Void MetaMaskManager::Awake()
 extern void MetaMaskManager_Awake_m84569576863F94D4EC1F36B57CD22A0ECFB11A57 (void);
-// 0x000001E7 System.Void MetaMaskManager::initApp()
+// 0x000001EB System.Void MetaMaskManager::initApp()
 extern void MetaMaskManager_initApp_m21A9C0BD6CCE23BA099D676809E5564A2731EE43 (void);
-// 0x000001E8 System.String MetaMaskManager::GetWalletAddres()
+// 0x000001EC System.String MetaMaskManager::GetWalletAddres()
 extern void MetaMaskManager_GetWalletAddres_mAFD82F1351EFF0C6FFE2EA1389B30A9862E059DC (void);
-// 0x000001E9 System.Void MetaMaskManager::SetWalletAddress(System.String)
+// 0x000001ED System.Void MetaMaskManager::SetWalletAddress(System.String)
 extern void MetaMaskManager_SetWalletAddress_m80064DE7A39407C8E463716BAC994F47629D3CFE (void);
-// 0x000001EA System.Boolean MetaMaskManager::HasUMGNFT()
+// 0x000001EE System.Void MetaMaskManager::ConnectMetamaskjscript()
+extern void MetaMaskManager_ConnectMetamaskjscript_m06A0E0C9EA2E8E2C21A5A07A6D83FE8C707237FB (void);
+// 0x000001EF System.Void MetaMaskManager::FetchCollection()
+extern void MetaMaskManager_FetchCollection_mF11DBEE4C96021A5DC078727B50E07ACFCF0FD72 (void);
+// 0x000001F0 System.Void MetaMaskManager::ButtonTest()
+extern void MetaMaskManager_ButtonTest_mDDD74B3D6E86D93E646D17A6952AE63D9849D2F4 (void);
+// 0x000001F1 System.Boolean MetaMaskManager::HasUMGNFT()
 extern void MetaMaskManager_HasUMGNFT_m9127000A33AA309317672EE13F427751277E841D (void);
-// 0x000001EB System.Void MetaMaskManager::.ctor()
+// 0x000001F2 System.Void MetaMaskManager::.ctor()
 extern void MetaMaskManager__ctor_m02F63FECC50CDF26C66BF847CAAD2F6027446AFD (void);
-// 0x000001EC System.Boolean OpenSea::HasUMGCollection(System.String)
+// 0x000001F3 System.String OpenSea::FetchCollection()
+extern void OpenSea_FetchCollection_m2ABF7DF3EC91ECDE157024F1B3FBD631CAF18913 (void);
+// 0x000001F4 System.String OpenSea::RunFetch()
+extern void OpenSea_RunFetch_m3962F71CB43164D67DF52EA5A8ADD8D8D775F195 (void);
+// 0x000001F5 System.Boolean OpenSea::HasUMGCollection(System.String)
 extern void OpenSea_HasUMGCollection_mE493772A414F719CAA346FEA7F0A2348C9B3A075 (void);
-// 0x000001ED System.Boolean OpenSea::SearchCollection(System.Collections.Generic.List`1<Root>)
+// 0x000001F6 System.Boolean OpenSea::SearchCollection(System.Collections.Generic.List`1<Root>)
 extern void OpenSea_SearchCollection_m4138192473E2E2AADA9C268BBD74F72E23E50B79 (void);
-// 0x000001EE System.Void OpenSea::.ctor()
+// 0x000001F7 System.Void OpenSea::RunFetchjscript()
+extern void OpenSea_RunFetchjscript_mED8617045BCD4276B0A4CB2D1C515CADD26D85EB (void);
+// 0x000001F8 System.Boolean OpenSea::HasUMGCollectionjscript()
+extern void OpenSea_HasUMGCollectionjscript_m8727FCE691CE19A2B2173798F486397D70B6E560 (void);
+// 0x000001F9 System.Void OpenSea::.ctor()
 extern void OpenSea__ctor_mE6AE8107BDDE7B6E9D1B9DA85801672284AF3DFE (void);
-// 0x000001EF System.Void Dialogue_Manager_Tiny::Start()
+// 0x000001FA System.Void Dialogue_Manager_Tiny::Start()
 extern void Dialogue_Manager_Tiny_Start_mE48EE7E2B9CD37D740672634D872D4869E12C21B (void);
-// 0x000001F0 System.Void Dialogue_Manager_Tiny::StartDialogue(Dialogue)
+// 0x000001FB System.Void Dialogue_Manager_Tiny::StartDialogue(Dialogue)
 extern void Dialogue_Manager_Tiny_StartDialogue_mA868A1C7C0BEB514F204F8E4D1562352AFDDBBCB (void);
-// 0x000001F1 System.Void Dialogue_Manager_Tiny::DisplayNextSentence()
+// 0x000001FC System.Void Dialogue_Manager_Tiny::DisplayNextSentence()
 extern void Dialogue_Manager_Tiny_DisplayNextSentence_m092A2D582AB1D34E7B6E8B074F6101DFAA3A8ADC (void);
-// 0x000001F2 System.Collections.IEnumerator Dialogue_Manager_Tiny::TypeSentence(System.String)
+// 0x000001FD System.Collections.IEnumerator Dialogue_Manager_Tiny::TypeSentence(System.String)
 extern void Dialogue_Manager_Tiny_TypeSentence_m4A505F6F403699C6B3FF141BEBDB9FA6A31CCEF6 (void);
-// 0x000001F3 System.Void Dialogue_Manager_Tiny::EndDialogue()
+// 0x000001FE System.Void Dialogue_Manager_Tiny::EndDialogue()
 extern void Dialogue_Manager_Tiny_EndDialogue_mD5C7443A2681216F53D4C67B88363D2F8C62137F (void);
-// 0x000001F4 System.Collections.IEnumerator Dialogue_Manager_Tiny::PanelToOpenAtEndOfTalking_Routine()
+// 0x000001FF System.Collections.IEnumerator Dialogue_Manager_Tiny::PanelToOpenAtEndOfTalking_Routine()
 extern void Dialogue_Manager_Tiny_PanelToOpenAtEndOfTalking_Routine_mCF314E9E89C99DBDA3ACFCF5BAC7531A0D7C7D9C (void);
-// 0x000001F5 System.Void Dialogue_Manager_Tiny::Reset_DialogueText_Size()
+// 0x00000200 System.Void Dialogue_Manager_Tiny::Reset_DialogueText_Size()
 extern void Dialogue_Manager_Tiny_Reset_DialogueText_Size_m5C6015A05BBBD730D1A294CDE8F1F277AE0E9B20 (void);
-// 0x000001F6 System.Void Dialogue_Manager_Tiny::.ctor()
+// 0x00000201 System.Void Dialogue_Manager_Tiny::.ctor()
 extern void Dialogue_Manager_Tiny__ctor_mEC7CFA26793BCB1E007EC4DD1A6E679E4A1D0558 (void);
-// 0x000001F7 System.Void Dialogue_Manager_Tiny/<TypeSentence>d__9::.ctor(System.Int32)
+// 0x00000202 System.Void Dialogue_Manager_Tiny/<TypeSentence>d__9::.ctor(System.Int32)
 extern void U3CTypeSentenceU3Ed__9__ctor_mB2281967F10AC91EDFF6BF9F5C7A989F7DB98DC8 (void);
-// 0x000001F8 System.Void Dialogue_Manager_Tiny/<TypeSentence>d__9::System.IDisposable.Dispose()
+// 0x00000203 System.Void Dialogue_Manager_Tiny/<TypeSentence>d__9::System.IDisposable.Dispose()
 extern void U3CTypeSentenceU3Ed__9_System_IDisposable_Dispose_m4FECF88AA581E636ACA3763D14932D000CD28ADC (void);
-// 0x000001F9 System.Boolean Dialogue_Manager_Tiny/<TypeSentence>d__9::MoveNext()
+// 0x00000204 System.Boolean Dialogue_Manager_Tiny/<TypeSentence>d__9::MoveNext()
 extern void U3CTypeSentenceU3Ed__9_MoveNext_m778C6B58CD41BA76B9A657D0B132C35F7D6FF024 (void);
-// 0x000001FA System.Object Dialogue_Manager_Tiny/<TypeSentence>d__9::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000205 System.Object Dialogue_Manager_Tiny/<TypeSentence>d__9::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CTypeSentenceU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mBF0976C8C7C12DBE3BE663E3650E4502E3B455C6 (void);
-// 0x000001FB System.Void Dialogue_Manager_Tiny/<TypeSentence>d__9::System.Collections.IEnumerator.Reset()
+// 0x00000206 System.Void Dialogue_Manager_Tiny/<TypeSentence>d__9::System.Collections.IEnumerator.Reset()
 extern void U3CTypeSentenceU3Ed__9_System_Collections_IEnumerator_Reset_mFF95EFC9A6476F3F5EED044D772FC225C22D1393 (void);
-// 0x000001FC System.Object Dialogue_Manager_Tiny/<TypeSentence>d__9::System.Collections.IEnumerator.get_Current()
+// 0x00000207 System.Object Dialogue_Manager_Tiny/<TypeSentence>d__9::System.Collections.IEnumerator.get_Current()
 extern void U3CTypeSentenceU3Ed__9_System_Collections_IEnumerator_get_Current_m3502F775A3BD1FC1E39C7E2469171E4C5B18666F (void);
-// 0x000001FD System.Void Dialogue_Manager_Tiny/<PanelToOpenAtEndOfTalking_Routine>d__11::.ctor(System.Int32)
+// 0x00000208 System.Void Dialogue_Manager_Tiny/<PanelToOpenAtEndOfTalking_Routine>d__11::.ctor(System.Int32)
 extern void U3CPanelToOpenAtEndOfTalking_RoutineU3Ed__11__ctor_mA1810F74A395E4F2687E5F2B5C848090842424CA (void);
-// 0x000001FE System.Void Dialogue_Manager_Tiny/<PanelToOpenAtEndOfTalking_Routine>d__11::System.IDisposable.Dispose()
+// 0x00000209 System.Void Dialogue_Manager_Tiny/<PanelToOpenAtEndOfTalking_Routine>d__11::System.IDisposable.Dispose()
 extern void U3CPanelToOpenAtEndOfTalking_RoutineU3Ed__11_System_IDisposable_Dispose_m2D49C63DD6CB9636A49B0E8F96FB75A9DD0FB45B (void);
-// 0x000001FF System.Boolean Dialogue_Manager_Tiny/<PanelToOpenAtEndOfTalking_Routine>d__11::MoveNext()
+// 0x0000020A System.Boolean Dialogue_Manager_Tiny/<PanelToOpenAtEndOfTalking_Routine>d__11::MoveNext()
 extern void U3CPanelToOpenAtEndOfTalking_RoutineU3Ed__11_MoveNext_m12C46931F55A2960CC9AB9A8F0A49B1E2918BC75 (void);
-// 0x00000200 System.Object Dialogue_Manager_Tiny/<PanelToOpenAtEndOfTalking_Routine>d__11::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000020B System.Object Dialogue_Manager_Tiny/<PanelToOpenAtEndOfTalking_Routine>d__11::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CPanelToOpenAtEndOfTalking_RoutineU3Ed__11_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mA122D052A422B0DB45FE5159C5AD476276201401 (void);
-// 0x00000201 System.Void Dialogue_Manager_Tiny/<PanelToOpenAtEndOfTalking_Routine>d__11::System.Collections.IEnumerator.Reset()
+// 0x0000020C System.Void Dialogue_Manager_Tiny/<PanelToOpenAtEndOfTalking_Routine>d__11::System.Collections.IEnumerator.Reset()
 extern void U3CPanelToOpenAtEndOfTalking_RoutineU3Ed__11_System_Collections_IEnumerator_Reset_m8C64D14407F1649D18E7626E2A67292FD9507E73 (void);
-// 0x00000202 System.Object Dialogue_Manager_Tiny/<PanelToOpenAtEndOfTalking_Routine>d__11::System.Collections.IEnumerator.get_Current()
+// 0x0000020D System.Object Dialogue_Manager_Tiny/<PanelToOpenAtEndOfTalking_Routine>d__11::System.Collections.IEnumerator.get_Current()
 extern void U3CPanelToOpenAtEndOfTalking_RoutineU3Ed__11_System_Collections_IEnumerator_get_Current_m2828F73ED6CECA242CBF6351A66FD4EBE706E169 (void);
-// 0x00000203 System.Void Dialogue_Trigger_Tiny::TriggerDialogue()
+// 0x0000020E System.Void Dialogue_Trigger_Tiny::TriggerDialogue()
 extern void Dialogue_Trigger_Tiny_TriggerDialogue_m816086BE2797F9D405D2030DD5F5962A93547BDF (void);
-// 0x00000204 System.Void Dialogue_Trigger_Tiny::.ctor()
+// 0x0000020F System.Void Dialogue_Trigger_Tiny::.ctor()
 extern void Dialogue_Trigger_Tiny__ctor_mD3EFC7ED595FDB0C0DC4A374C8879279F3E4154C (void);
-// 0x00000205 UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient/Blend UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::get_BlendMode()
+// 0x00000210 UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient/Blend UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::get_BlendMode()
 extern void UIGradient_get_BlendMode_m2D06A0495A86966B2FC1ABF700C6628DCDE3895D (void);
-// 0x00000206 System.Void UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::set_BlendMode(UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient/Blend)
+// 0x00000211 System.Void UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::set_BlendMode(UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient/Blend)
 extern void UIGradient_set_BlendMode_m3CEA9838792C4C502A47E655B67ECE10F2207173 (void);
-// 0x00000207 UnityEngine.Gradient UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::get_EffectGradient()
+// 0x00000212 UnityEngine.Gradient UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::get_EffectGradient()
 extern void UIGradient_get_EffectGradient_mB7F98C04278EBBF2A8FBD9772C88F8CF8F243FEB (void);
-// 0x00000208 System.Void UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::set_EffectGradient(UnityEngine.Gradient)
+// 0x00000213 System.Void UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::set_EffectGradient(UnityEngine.Gradient)
 extern void UIGradient_set_EffectGradient_mD0637098E83DC8C93F14957EC41EE06675CB5BD6 (void);
-// 0x00000209 UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient/Type UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::get_GradientType()
+// 0x00000214 UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient/Type UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::get_GradientType()
 extern void UIGradient_get_GradientType_mB34556C9ADB7B8D78C30E4A9885540E6760219B1 (void);
-// 0x0000020A System.Void UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::set_GradientType(UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient/Type)
+// 0x00000215 System.Void UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::set_GradientType(UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient/Type)
 extern void UIGradient_set_GradientType_mD025689C6FC1C7C1406D64257C60FB6DEBA2F53F (void);
-// 0x0000020B System.Single UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::get_Offset()
+// 0x00000216 System.Single UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::get_Offset()
 extern void UIGradient_get_Offset_m9B23941F9D0891B19F0AF5CDDC120C6E70EF77D9 (void);
-// 0x0000020C System.Void UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::set_Offset(System.Single)
+// 0x00000217 System.Void UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::set_Offset(System.Single)
 extern void UIGradient_set_Offset_m39D693DF3A121BABE164AB7E1E4902D67549A8F5 (void);
-// 0x0000020D System.Void UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::ModifyMesh(UnityEngine.UI.VertexHelper)
+// 0x00000218 System.Void UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::ModifyMesh(UnityEngine.UI.VertexHelper)
 extern void UIGradient_ModifyMesh_mFA413A5F7D0298960861F19CBD37AAF1F5445AAF (void);
-// 0x0000020E UnityEngine.Color UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::BlendColor(UnityEngine.Color,UnityEngine.Color)
+// 0x00000219 UnityEngine.Color UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::BlendColor(UnityEngine.Color,UnityEngine.Color)
 extern void UIGradient_BlendColor_m9960176FD00D4198FFB816D927B360684BC71F14 (void);
-// 0x0000020F System.Void UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::.ctor()
+// 0x0000021A System.Void UnityEngine.UI.Michsky.UI.ModernUIPack.UIGradient::.ctor()
 extern void UIGradient__ctor_m3D49905D25166B3BDA6F118D1E69FA43DA6E06A5 (void);
-static Il2CppMethodPointer s_methodPointers[527] = 
+static Il2CppMethodPointer s_methodPointers[538] = 
 {
 	NULL,
 	NULL,
@@ -1534,29 +1556,40 @@ static Il2CppMethodPointer s_methodPointers[527] =
 	PlayerController_Move_Keyboard_m105B3AC1E6449FD5C5A7F1D764CA8594499A7C5E,
 	PlayerController__ctor_mF30385729DAFDFCB895C4939F6051DCE6C0327FB,
 	OpenSeaStatusText_StartTest_mE3469EB7F3B3A688DDF7144BA43243299A7FFF57,
+	OpenSeaStatusText_FetchTest_m25997D1598959AEC490EA04EF3F150A0DC8C7719,
 	OpenSeaStatusText_StatusTrue_m4AA6C192A86C0558FA9172EBD5A9A1FAD12CB9DC,
 	OpenSeaStatusText_StatusFalse_m446F34A97D378C4E1B79E550EF36261FE668F8FC,
+	OpenSeaStatusText_TEST_m23B68FBF9FE9EB2ECA9269DB69C2775E9987EF8F,
 	OpenSeaStatusText_CR_TEST_m719FB552ADE79726FDB3B5AAD3E18F4DBF3D4C41,
 	OpenSeaStatusText__ctor_m0B76D19B779F2F92E2AA1B13EF1EBC0EB361C38B,
-	U3CCR_TESTU3Ed__8__ctor_m0782382E35A906860215546E4FB33899503FD44B,
-	U3CCR_TESTU3Ed__8_System_IDisposable_Dispose_m20FCF708E9BC53A7B1CB2555AE6F90C8B918770E,
-	U3CCR_TESTU3Ed__8_MoveNext_mF5613C72BC7203BDA484B47782C7705C09B4ED7B,
-	U3CCR_TESTU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m690BBDF9E64FE7C7F0318F9E87764E7E52E4D01D,
-	U3CCR_TESTU3Ed__8_System_Collections_IEnumerator_Reset_m5EC035728A352444C9780F43628D5BE2FF42F20B,
-	U3CCR_TESTU3Ed__8_System_Collections_IEnumerator_get_Current_m5D9313AE19C45E4212696BA892DBB44A3C8B2FAF,
+	U3CCR_TESTU3Ed__10__ctor_m9F682C072C1E57FE34D0E46B3F49854E1407E7D4,
+	U3CCR_TESTU3Ed__10_System_IDisposable_Dispose_m3A81E7683F3E3DF27DFDF83E06374E92CCC6BCF8,
+	U3CCR_TESTU3Ed__10_MoveNext_m3BC6FBFA526F373C53EE0F7872C55765C9CCF8CF,
+	U3CCR_TESTU3Ed__10_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m8A5BAFA956938FA53B0DFB13BA02AC860B213683,
+	U3CCR_TESTU3Ed__10_System_Collections_IEnumerator_Reset_m0E0B0C2E7AEFF8272EF7DC206729E5D0E66C4B0B,
+	U3CCR_TESTU3Ed__10_System_Collections_IEnumerator_get_Current_m3A9CD72371AD30DE409BEA3EA8CD3959A6850D2D,
 	ConnectButton_WalletAddress_mBB530BC6D12147B765F05FB5A26245450064B81B,
 	ConnectButton_Start_m13B99EB1096DFE9A76EB05F225A5BF797E151ADE,
 	ConnectButton_OnClick_mB10DF3E163D314F0A63E0038CFDC99EEB04BF659,
 	ConnectButton__ctor_mF58EF8D80BBB0AE8E27850ADE957F54BBB0F32F3,
 	MetaMaskManager_get_instance_m7066C9BCB66575BACE18CC9BF5E1ED6A34467A6D,
+	MetaMaskManager_ConnectToMetamask_mCDC0EDDB6D0D53FADCD09CBA18851504264BF408,
+	MetaMaskManager_Test_m80743DCC39E9DEF15304CFEE990D53F5D7207FB9,
 	MetaMaskManager_Awake_m84569576863F94D4EC1F36B57CD22A0ECFB11A57,
 	MetaMaskManager_initApp_m21A9C0BD6CCE23BA099D676809E5564A2731EE43,
 	MetaMaskManager_GetWalletAddres_mAFD82F1351EFF0C6FFE2EA1389B30A9862E059DC,
 	MetaMaskManager_SetWalletAddress_m80064DE7A39407C8E463716BAC994F47629D3CFE,
+	MetaMaskManager_ConnectMetamaskjscript_m06A0E0C9EA2E8E2C21A5A07A6D83FE8C707237FB,
+	MetaMaskManager_FetchCollection_mF11DBEE4C96021A5DC078727B50E07ACFCF0FD72,
+	MetaMaskManager_ButtonTest_mDDD74B3D6E86D93E646D17A6952AE63D9849D2F4,
 	MetaMaskManager_HasUMGNFT_m9127000A33AA309317672EE13F427751277E841D,
 	MetaMaskManager__ctor_m02F63FECC50CDF26C66BF847CAAD2F6027446AFD,
+	OpenSea_FetchCollection_m2ABF7DF3EC91ECDE157024F1B3FBD631CAF18913,
+	OpenSea_RunFetch_m3962F71CB43164D67DF52EA5A8ADD8D8D775F195,
 	OpenSea_HasUMGCollection_mE493772A414F719CAA346FEA7F0A2348C9B3A075,
 	OpenSea_SearchCollection_m4138192473E2E2AADA9C268BBD74F72E23E50B79,
+	OpenSea_RunFetchjscript_mED8617045BCD4276B0A4CB2D1C515CADD26D85EB,
+	OpenSea_HasUMGCollectionjscript_m8727FCE691CE19A2B2173798F486397D70B6E560,
 	OpenSea__ctor_mE6AE8107BDDE7B6E9D1B9DA85801672284AF3DFE,
 	Dialogue_Manager_Tiny_Start_mE48EE7E2B9CD37D740672634D872D4869E12C21B,
 	Dialogue_Manager_Tiny_StartDialogue_mA868A1C7C0BEB514F204F8E4D1562352AFDDBBCB,
@@ -1592,7 +1625,7 @@ static Il2CppMethodPointer s_methodPointers[527] =
 	UIGradient_BlendColor_m9960176FD00D4198FFB816D927B360684BC71F14,
 	UIGradient__ctor_m3D49905D25166B3BDA6F118D1E69FA43DA6E06A5,
 };
-static const int32_t s_InvokerIndices[527] = 
+static const int32_t s_InvokerIndices[538] = 
 {
 	-1,
 	-1,
@@ -2066,6 +2099,8 @@ static const int32_t s_InvokerIndices[527] =
 	3298,
 	3298,
 	3298,
+	3298,
+	3298,
 	3219,
 	3298,
 	2693,
@@ -2079,14 +2114,23 @@ static const int32_t s_InvokerIndices[527] =
 	3298,
 	3298,
 	5081,
+	5081,
+	5081,
 	3298,
 	3298,
 	3219,
 	2709,
+	3298,
+	3298,
+	3298,
 	3248,
 	3298,
+	5081,
+	5081,
 	2328,
 	2328,
+	3298,
+	3248,
 	3298,
 	3298,
 	2709,
@@ -2141,7 +2185,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	527,
+	538,
 	s_methodPointers,
 	0,
 	NULL,

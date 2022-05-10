@@ -1145,7 +1145,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[246] =
 	{ (Il2CppRGCTXDataType)3, 8453 },
 	{ (Il2CppRGCTXDataType)2, 2579 },
 	{ (Il2CppRGCTXDataType)3, 8450 },
-	{ (Il2CppRGCTXDataType)3, 23923 },
+	{ (Il2CppRGCTXDataType)3, 23922 },
 	{ (Il2CppRGCTXDataType)2, 1574 },
 	{ (Il2CppRGCTXDataType)3, 5709 },
 	{ (Il2CppRGCTXDataType)1, 2185 },

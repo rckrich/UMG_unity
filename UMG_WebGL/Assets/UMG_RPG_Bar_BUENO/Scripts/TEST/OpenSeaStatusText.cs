@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+// use web3.jslib
+using System.Runtime.InteropServices;
 
 public class OpenSeaStatusText : MonoBehaviour
 {
@@ -18,7 +20,13 @@ public class OpenSeaStatusText : MonoBehaviour
 
     public void StartTest()
     {
-        StartCoroutine(CR_TEST());
+        //StartCoroutine(CR_TEST());
+        TEST();
+    }
+
+    public void FetchTest()
+    {
+        MetaMaskManager.instance.FetchCollection();
     }
 
     private void StatusTrue() {
@@ -29,6 +37,18 @@ public class OpenSeaStatusText : MonoBehaviour
     private void StatusFalse() {
         tmPro.color = falseColor;
         tmPro.text = falseText;
+    }
+
+    private void TEST() {
+        bool result = MetaMaskManager.instance.HasUMGNFT();
+        if (result)
+        {
+            StatusTrue();
+        }
+        else
+        {
+            StatusFalse();
+        }
     }
 
     private IEnumerator CR_TEST()

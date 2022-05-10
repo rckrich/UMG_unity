@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+// use web3.jslib
+using System.Runtime.InteropServices;
 
 public class MetaMaskManager : MonoBehaviour
 {
@@ -19,6 +21,8 @@ public class MetaMaskManager : MonoBehaviour
     }
 
     public static MetaMaskManager dontDestroyMetaMaskM;
+    [DllImport("__Internal")] private static extern string ConnectToMetamask();
+    [DllImport("__Internal")] private static extern string Test();
 
     void Awake()
     {
@@ -52,15 +56,25 @@ public class MetaMaskManager : MonoBehaviour
         walletAddress = _walletAddres;
     }
 
+    public void ConnectMetamaskjscript() {
+        ConnectToMetamask();
+    }
+
+    public void FetchCollection() {
+        os.RunFetchjscript();
+    }
+
+    public void ButtonTest() {
+        Test();
+    }
+
+
     public bool HasUMGNFT() {
-        //TODO: TEST TO DELETE
-        walletAddress = "0x0507F65Eb0aCC4d4994D09FD143C0138971Dae0b";
-        //TODO: END TEST
         if (walletAddress.Equals("")){
             return false;
         }
         else {
-            return os.HasUMGCollection(walletAddress);
+            return os.HasUMGCollectionjscript();
         }
     }
 }

@@ -20,8 +20,9 @@ public class ConnectButton : MonoBehaviour
     public void OnClick()
     {
         // get wallet address and display it on the button
-        string walletAddres = WalletAddress();
-        FindObjectOfType<MetaMaskManager>().SetWalletAddress(walletAddres);
-        ButtonText.text = walletAddres;
+        //string walletAddres = WalletAddress();
+        //MetaMaskManager.instance.SetWalletAddress(walletAddres);
+        //ButtonText.text = walletAddres;
+        MetaMaskManager.instance.ConnectMetamaskjscript();
     }
 }
