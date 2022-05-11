@@ -74,5 +74,21 @@ mergeInto(LibraryManager.library, {
 
   GetNetwork: function () {
     return window.web3gl.networkId;
+  },
+
+  FetchCollectionJs: function () {
+      window.web3gl.fetchCollection();
+  },
+
+  SendFetchCollectionResponse: function () {
+    var bufferSize = lengthBytesUTF8(window.web3gl.fetchCollectionResponse) + 1;
+    var buffer = _malloc(bufferSize);
+    stringToUTF8(window.web3gl.fetchCollectionResponse, buffer, bufferSize);
+    return buffer; 
+  },
+
+  SetFetchCollectionResponse: function (value) {
+    window.web3gl.fetchCollectionResponse = value;
   }
+
 });

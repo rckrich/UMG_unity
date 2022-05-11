@@ -18,8 +18,7 @@ public class OpenSeaStatusText : MonoBehaviour
 
     public void StartTest()
     {
-        StartCoroutine(CR_TEST());
-        //TEST();
+        TEST();
     }
 
     private void StatusTrue()
@@ -34,9 +33,9 @@ public class OpenSeaStatusText : MonoBehaviour
         tmPro.text = falseText;
     }
 
-    private void TEST()
+    async private void TEST()
     {
-        bool result = Web3Manager.instance.HasUMGNFT();
+        bool result = await Web3Manager.instance.HasCollection();
         if (result)
         {
             StatusTrue();
@@ -45,20 +44,5 @@ public class OpenSeaStatusText : MonoBehaviour
         {
             StatusFalse();
         }
-    }
-
-    private IEnumerator CR_TEST()
-    {
-        bool result = Web3Manager.instance.HasUMGNFT();
-        yield return null;
-        if (result)
-        {
-            StatusTrue();
-        }
-        else
-        {
-            StatusFalse();
-        }
-        yield return null;
     }
 }

@@ -1,8 +1,11 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine;
 using System.Runtime.InteropServices;
+using System.Threading.Tasks;
+using UnityEngine;
 
+#if UNITY_WEBGL
 public class Web3Manager : MonoBehaviour
 {
     private static Web3Manager self;
@@ -20,6 +23,7 @@ public class Web3Manager : MonoBehaviour
     }
 
     public static Web3Manager dontDestroyWeb3M;
+
     [DllImport("__Internal")]
     private static extern void Web3Connect();
 
@@ -46,12 +50,10 @@ public class Web3Manager : MonoBehaviour
     private string walletAddress;
     private int expirationTime;
     private string account;
-    private OpenSeaManager openSeaM;
 
     private void initApp()
     {
         walletAddress = "";
-        openSeaM = this.gameObject.AddComponent(typeof(OpenSeaManager)) as OpenSeaManager;
     }
 
     public string GetWalletAddres()
@@ -62,18 +64,6 @@ public class Web3Manager : MonoBehaviour
     public void SetWalletAddress(string _walletAddres)
     {
         walletAddress = _walletAddres;
-    }
-
-    public bool HasUMGNFT()
-    {
-        if (walletAddress.Equals(""))
-        {
-            return false;
-        }
-        else
-        {
-            return openSeaM.HasUMGCollection(walletAddress);
-        }
     }
 
     public void OnLogin()
@@ -103,4 +93,30 @@ public class Web3Manager : MonoBehaviour
         // burner account for skipped sign in screen
         PlayerPrefs.SetString("Account", "");
     }
+
+    async public Task<bool> HasCollection()
+    {
+        try
+        {
+            string response = await Web3GL.FetchCollection();
+            Debug.Log(response);
+            switch (response)
+            {
+                case "":
+                    return false;
+                case "false":
+                    return false;
+                case "true":
+                    return true;
+            }
+        }
+        catch (Exception e)
+        {
+            Debug.LogException(e, this);
+        }
+
+        return false;
+    }
+
 }
+#endif

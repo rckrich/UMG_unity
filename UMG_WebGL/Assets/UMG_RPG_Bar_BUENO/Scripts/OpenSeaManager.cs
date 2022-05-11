@@ -1,46 +1,35 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using RestSharp;
 using System;
+using System.Threading.Tasks;
 
+#if UNITY_WEBGL
 public class OpenSeaManager : MonoBehaviour
 {
-    public bool HasUMGCollection(string _walletAddress)
+    async public Task<bool> HasUMGCollection()
     {
         try
         {
-            var client = new RestClient("https://testnets-api.opensea.io/api/v1/collections?asset_owner=" + _walletAddress + "&offset=0&limit=300");
-            var request = new RestRequest(Method.GET);
-            request.AddHeader("Accept", "application/json");
-            IRestResponse response = client.Execute(request);
-            Debug.Log(response.Content);
-            return SearchCollection(JsonListDeserialize.Deserialize<Root>(response.Content));
+            string response = await Web3GL.FetchCollection();
+            Debug.Log(response);
+            switch (response)
+            {
+                case "":
+                    return false;
+                case "false":
+                    return false;
+                case "true":
+                    return true;
+            }
         }
         catch (Exception e)
         {
-            Debug.LogWarning("Error: " + e.ToString());
-        }
-
-        return false;
-    }
-
-    private bool SearchCollection(List<Root> root)
-    {
-        foreach (Root value in root)
-        {
-            Debug.Log(value.name);
-            if (value.name == "TEST Unicorn Motorcycle Gang V2")
-            {
-                return true;
-            }
-            else
-            {
-                return false;
-            }
+            Debug.LogException(e, this);
         }
 
         return false;
     }
 
 }
+#endif

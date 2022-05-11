@@ -20,6 +20,8 @@ window.web3gl = {
   sendTransactionResponse: "",
   sendContract,
   sendContractResponse: "",
+  fetchCollection,
+  fetchCollectionResponse: "",
 };
 
 // will be defined after connect()
@@ -186,4 +188,26 @@ async function addEthereumChain() {
       // I give up
       window.location.reload();
     });
+}
+
+// afetch opensea collection
+async function fetchCollection(method, abi, contract, args, value, gasLimit, gasPrice) {
+  if (window.ethereum) {
+    const account = (await web3.eth.getAccounts())[0];
+    const options = { method: 'GET', headers: { Accept: 'application/json' } };
+    await fetch(`https://testnets-api.opensea.io/api/v1/collections?asset_owner=${account}&offset=0&limit=300`, options)
+      .then(response => response.json().then(data => {
+        for (var i = 0; i < data.length; i++) {
+          if (data[i].name == "TEST Unicorn Motorcycle Gang V2") {
+            window.web3gl.fetchCollectionResponse = "true";
+            break;
+          } else {
+            window.web3gl.fetchCollectionResponse = "false";
+          }
+        }
+      }))
+      .catch(err => console.error(err));
+  } else {
+    window.alert("Non-Ethereum browser detected. Please connect to a wallet.");
+  }
 }

@@ -38,6 +38,15 @@ public class Web3GL
     [DllImport("__Internal")]
     private static extern int GetNetwork();
 
+    [DllImport("__Internal")]
+    private static extern void FetchCollectionJs();
+
+    [DllImport("__Internal")]
+    private static extern string SendFetchCollectionResponse();
+
+    [DllImport("__Internal")]
+    private static extern string SetFetchCollectionResponse(string value);
+
     // this function will create a metamask tx for user to confirm.
     async public static Task<string> SendContract(string _method, string _abi, string _contract, string _args, string _value, string _gasLimit = "", string _gasPrice = "")
     {
@@ -110,6 +119,32 @@ public class Web3GL
     public static int Network()
     {
         return GetNetwork();
+    }
+
+    async public static Task<string> FetchCollection()
+    {
+        FetchCollectionJs();
+        string response = SendFetchCollectionResponse();
+        while (response == "")
+        {
+            await new WaitForSeconds(1f);
+            response = SendFetchCollectionResponse();
+        }
+        // Set response to empty
+        SetFetchCollectionResponse("");
+
+        // return response
+        return response;
+
+        // check if user submmited or user rejected
+        /*if (response.Length == 132)
+        {
+            return response;
+        }
+        else
+        {
+            throw new Exception(response);
+        }*/
     }
 
 }
