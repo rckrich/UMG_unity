@@ -193,7 +193,15 @@ async function addEthereumChain() {
 // afetch opensea collection
 async function fetchCollection(method, abi, contract, args, value, gasLimit, gasPrice) {
   if (window.ethereum) {
-    const account = (await web3.eth.getAccounts())[0];
+    const accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
+    const account = accounts[0];
+
+    if (account == null) {
+      window.web3gl.fetchCollectionResponse = "false";
+      window.alert("No wallet connected! Please connect your wallet to the web page via the MetaMask extension and reload the page or connect your wallet and in options menu let the game know that your wallet is connected.");
+      return;
+    }
+
     const options = { method: 'GET', headers: { Accept: 'application/json' } };
     await fetch(`https://testnets-api.opensea.io/api/v1/collections?asset_owner=${account}&offset=0&limit=300`, options)
       .then(response => response.json().then(data => {
