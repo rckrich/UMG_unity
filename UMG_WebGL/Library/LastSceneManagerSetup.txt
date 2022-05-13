@@ -1,5 +1,0 @@
-sceneSetups:
-- path: Assets/UMG_RPG_Bar_BUENO/UMG_RPG_Bar_Start.unity
-  isLoaded: 1
-  isActive: 1
-  isSubScene: 0
