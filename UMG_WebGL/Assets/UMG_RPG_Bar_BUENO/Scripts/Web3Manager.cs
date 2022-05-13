@@ -48,31 +48,47 @@ public class Web3Manager : MonoBehaviour
     }
 
     private string walletAddress;
-    private int expirationTime;
     private string account;
+    private bool hasCollection = false;
 
     private void initApp()
     {
         walletAddress = "";
     }
 
-    public string GetWalletAddres()
-    {
-        return walletAddress;
-    }
+    public string GetWalletAddres() { return walletAddress; }
 
     public void SetWalletAddress(string _walletAddres)
     {
         walletAddress = _walletAddres;
     }
 
-    public void OnLogin()
+    async public Task<bool> HasCollection()
     {
-        Web3Connect();
-        OnConnected();
+        if (hasCollection == false)
+        {
+            hasCollection = await Web3Manager.instance.SearchCollection();
+        }
+
+        return hasCollection;
     }
 
-    async private void OnConnected()
+    public async Task OnLogin()
+    {
+        FindObjectOfType<Web3Canvas>().WarningCanvasSetActive(true);
+        Web3Connect();
+        await OnConnected();
+    }
+
+    public void OnSkip()
+    {
+        // burner account for skipped sign in screen
+        PlayerPrefs.SetString("Account", "");
+        // reset login message
+        SetConnectAccount("");
+    }
+
+    async private Task OnConnected()
     {
         account = ConnectAccount();
         while (account == "")
@@ -86,20 +102,18 @@ public class Web3Manager : MonoBehaviour
         SetWalletAddress(account);
         // reset login message
         SetConnectAccount("");
+        // find web3canvas and open close button
+        FindObjectOfType<Web3Canvas>().WarningCanvasSetActive(false);
     }
 
-    public void OnSkip()
+    async private Task<bool> SearchCollection()
     {
-        // burner account for skipped sign in screen
-        PlayerPrefs.SetString("Account", "");
-    }
+        FindObjectOfType<Web3Canvas>().WarningCanvasSetActive(true);
 
-    async public Task<bool> HasCollection()
-    {
         try
         {
             string response = await Web3GL.FetchCollection();
-            Debug.Log(response);
+            FindObjectOfType<Web3Canvas>().WarningCanvasSetActive(false);
             switch (response)
             {
                 case "":
@@ -115,8 +129,8 @@ public class Web3Manager : MonoBehaviour
             Debug.LogException(e, this);
         }
 
+        FindObjectOfType<Web3Canvas>().WarningCanvasSetActive(false);
         return false;
     }
-
 }
 #endif
