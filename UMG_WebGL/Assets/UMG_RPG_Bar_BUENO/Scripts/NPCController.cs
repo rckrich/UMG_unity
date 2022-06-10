@@ -7,7 +7,7 @@ public class NPCController : MonoBehaviour
     public GameObject NPC_Canvas;
 
 
-    private void OnTriggerEnter2D(Collider2D other)
+    virtual protected void OnTriggerEnter2D(Collider2D other)
     {
         if (other.tag == "Player")
         {
@@ -15,7 +15,7 @@ public class NPCController : MonoBehaviour
         }
     }
 
-    private void OnTriggerExit2D(Collider2D other)
+    virtual protected void OnTriggerExit2D(Collider2D other)
     {
         if (other.tag == "Player")
         {
