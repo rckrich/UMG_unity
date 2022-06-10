@@ -18,7 +18,7 @@ public class PlayPanel : MonoBehaviour
 
     private async void Connect()
     {
-        await Web3Manager.instance.OnLogin();
+        //await Web3Manager.instance.OnLogin(); // Comentado porque daba errores
         barEntraceGO.SetActive(true);
         animator.SetTrigger("Activate");
     }

@@ -35,6 +35,7 @@ public class OpenSeaStatusText : MonoBehaviour
 
     async private void TEST()
     {
+        /* comentado porque daba errores
         bool result = await Web3Manager.instance.HasCollection();
         if (result)
         {
@@ -44,5 +45,6 @@ public class OpenSeaStatusText : MonoBehaviour
         {
             StatusFalse();
         }
+        */
     }
 }

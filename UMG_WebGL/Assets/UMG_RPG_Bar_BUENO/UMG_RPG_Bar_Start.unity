@@ -1740,7 +1740,7 @@ GameObject:
   - component: {fileID: 1058086674}
   - component: {fileID: 1058086673}
   m_Layer: 5
-  m_Name: Button_Connect_Play
+  m_Name: Button_Connect_Play_NO SE USA AHORITA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1939,7 +1939,7 @@ GameObject:
   - component: {fileID: 1074007014}
   - component: {fileID: 1074007013}
   m_Layer: 5
-  m_Name: Button_Skip_Play
+  m_Name: Button_Skip_Play_NO SE USA AHORITA
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
