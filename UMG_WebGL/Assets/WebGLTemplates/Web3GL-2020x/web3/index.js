@@ -203,10 +203,10 @@ async function fetchCollection(method, abi, contract, args, value, gasLimit, gas
     }
 
     const options = { method: 'GET', headers: { Accept: 'application/json' } };
-    await fetch(`https://testnets-api.opensea.io/api/v1/collections?asset_owner=${account}&offset=0&limit=300`, options)
+    await fetch(`https://api.opensea.io/api/v1/collections?asset_owner=${account}&offset=0&limit=300`, options)
       .then(response => response.json().then(data => {
         for (var i = 0; i < data.length; i++) {
-          if (data[i].name == "TEST Unicorn Motorcycle Gang V2") {
+          if (data[i].name == "Unicorn Motorcycle Gang") {
             window.web3gl.fetchCollectionResponse = "true";
             break;
           } else {
